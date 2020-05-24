@@ -1,4 +1,4 @@
-# Byte-compiled / optimized / DLL files
+﻿# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
@@ -8,7 +8,10 @@ __pycache__/
 
 # Distribution / packaging
 .Python
-build/
+
+#build/
+
+
 develop-eggs/
 dist/
 downloads/
@@ -31,7 +34,9 @@ MANIFEST
 #  Usually these files are written by a python script from a template
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
-*.spec
+
+# 取消.spec注释 (ciyun.spec)
+# *.spec
 
 # Installer logs
 pip-log.txt
@@ -47,7 +52,6 @@ htmlcov/
 nosetests.xml
 coverage.xml
 *.cover
-*.py,cover
 .hypothesis/
 .pytest_cache/
 
@@ -58,8 +62,7 @@ coverage.xml
 # Django stuff:
 *.log
 local_settings.py
-db.sqlite3
-db.sqlite3-journal
+# db.sqlite3
 
 # Flask stuff:
 instance/
@@ -87,16 +90,12 @@ ipython_config.py
 # pipenv
 #   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
 #   However, in case of collaboration, if having platform-specific dependencies or dependencies
-#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   having no cross-platform support, pipenv may install dependencies that don’t work, or not
 #   install all needed dependencies.
 #Pipfile.lock
 
-# PEP 582; used by e.g. github.com/David-OConnor/pyflow
-__pypackages__/
-
-# Celery stuff
+# celery beat schedule file
 celerybeat-schedule
-celerybeat.pid
 
 # SageMath parsed files
 *.sage.py
@@ -127,3 +126,19 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+.idea/
+
+
+tmp.json
+myvenv/
+myenv/
+*___jb_old___
+
+
+node_modules/
+
+desktop.ini
+
+
+whoosh_index/
