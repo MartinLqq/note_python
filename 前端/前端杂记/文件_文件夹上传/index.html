@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>测试文件夹上传</title>
+</head>
+<body>
+	<form method="POST" enctype=multipart/form-data action="http://localhost:5000/upload">
+	  支持文件夹上传: <input type='file' name="file" webkitdirectory >
+	  <button>upload</button>
+	</form>
+
+	<hr />
+	
+	<form method="POST" enctype=multipart/form-data action="http://localhost:5000/upload">
+	  支持文件批量上传: <input type='file' name="file" multiple >
+	  <button>upload</button>
+	</form>
+
+	<hr />
+	
+	<form method="POST" enctype=multipart/form-data action="http://localhost:5000/upload">
+	  仅支持单上传: <input type='file' name="file" >
+	  <button>upload</button>
+	</form>
+
+	<hr />
+
+	<h3>ajax 方式上传</h3>
+	ajax 方式上传文件夹: 
+	<!-- 前端不需要 <form> 标签 -->
+	<!-- 后台需要先解决 CORS 问题. -->
+	<input type='file' name="file" id="ajaxUpload" multiple>
+  	<button id="upload-btn">upload</button>
+
+
+  	<script src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script type="text/javascript">
+
+		var files = [];
+
+		$(document).ready(function(){
+		  $("#ajaxUpload").change(function(){
+		    files = this.files;
+		  });
+		});
+
+		$("#upload-btn").click(function(){
+
+		  var fd = new FormData();
+
+		  for (var i = 0; i < files.length; i++) {
+		    fd.append("file", files[i]);
+		  }
+
+		  // 用 ajax 上传的好处有两点，
+		  // 1. 异步，这样不会导致页面卡住  2. 能比较方便地实现上传进度条
+		  $.ajax({
+		    url: "http://localhost/upload/",
+		    method: "POST",
+		    data: fd,
+		    contentType: false,
+		    processData: false,
+		    cache: false,
+		    success: function(data){
+		      alert(data);
+		    }
+		  });
+		});
+	</script>
+
+</body>
+</html>

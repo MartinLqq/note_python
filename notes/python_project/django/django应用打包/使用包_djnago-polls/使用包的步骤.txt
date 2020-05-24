@@ -1,0 +1,29 @@
+
+# 1. 进入虚拟环境, 安装包
+$ python -m pip install django-polls-0.1.tar.gz
+
+# 2. 注册安装应用. settings.py
+INSTALLED_APPS = [
+    # ...
+    'polls',
+]
+
+# 3. 添加路由. urls.py
+urlpatterns = [
+    # ...
+    path('polls/', include('polls.urls')),
+]
+
+# 4. 配置数据库 (默认使用 sqlite)
+
+# 5. 数据库迁移 (迁移完成就可以测试访问: http://localhost:8000/polls/)
+python manage.py makemigrations
+python manage.py migrate
+
+# 6. 创建管理员账户 (创建完成就可以测试访问: http://localhost:8000/admin)
+python manae.py createsuperuser
+
+
+# 可选: 修改语言与时区
+LANGUAGE_CODE = 'zh-hans'
+TIME_ZONE = 'Asia/Shanghai'

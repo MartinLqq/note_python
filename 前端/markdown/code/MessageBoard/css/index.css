@@ -1,0 +1,79 @@
+.messageBoard {
+    width: 800px;
+    background-color: powderblue;
+    margin: 0 auto;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.boardTitle {
+    text-align: center;
+    margin: 30px;
+}
+
+
+/* message enter Box */
+.messageAdd, .messageList {
+    margin: 20px;
+}
+.enterTable {
+    width: 100%;
+}
+tr td:first-child {
+    width: 50px;
+}
+.enterUsername input, .enterMessage textarea {
+    width: calc(100% - 13px);
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 14px;
+    font-family: Consolas,Arial,"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.enterUsername input {
+    height: 30px;
+}
+.enterMessage textarea {
+    height: 100px;
+    outline: none;
+    resize: none;
+    background-color: inherit;
+}
+.submit input {
+    width: 90px;
+    height: 34px;
+    color: #fff;
+    background-color: green;
+    cursor: pointer;
+}
+input, textarea {
+    border: 1px solid gray;
+}
+
+
+/* message list Box */
+.messageList {
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+.listTitle {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px 5px 0 0;
+    background-color: blue;
+}
+.listTitle>span {
+    margin-left: 20px;
+    color: #fff;
+}
+ul li {
+    margin: 10px;
+}
+ul {
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.time {
+    float: right;
+}

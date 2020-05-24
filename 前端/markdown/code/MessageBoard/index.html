@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>留言板</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+
+<div class="messageBoard">
+    <div class="boardTitle">
+        <h3>留言板</h3>
+    </div>
+    <div class="messageAdd">
+        <table class="enterTable">
+            <tr class="enterUsername">
+                <td><label for="username">昵称:</label></td>
+                <td><input type="text" id="username" placeholder="请输入昵称"></td>
+            </tr>
+            <tr class="enterMessage">
+                <td><label for="message">留言:</label></td>
+                <td><textarea name="" id="message" cols="30" rows="10" placeholder="请输入内容"></textarea></td>
+            </tr>
+            <tr class="submit">
+                <td></td>
+                <td><input type="submit" value="提交留言" onclick="addMessage()"></td>
+            </tr>
+        </table>
+    </div>
+    <div class="messageList">
+        <div class="listTitle">
+            <span>留言列表</span>
+        </div>
+        <div class="listContent">
+            <ul>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script src="js/index.js"></script>
+
+</body>
+</html>

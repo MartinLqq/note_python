@@ -1,0 +1,14 @@
+(a) app.jinja_env.globals 字典   <br/>
+变量: {{ my_var }}
+方法: {{ my_func() }}
+<br/>
+<br/>
+
+(b) app.context_processor 函数   <br/>
+变量: {{ my_var2 }}
+方法: {{ my_func2() }}
+<br/>
+<br/>
+
+(c) @app.template_global() 装饰器   <br/>
+方法: {{ double(100) }}

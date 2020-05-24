@@ -1,0 +1,41 @@
+{
+  "name": "test_webpack",
+  "version": "1.0.0",
+  "description": "A simple test for webpack",
+  "main": "webpack.config.js",
+  "scripts": {
+    "dev": "webpack-dev-server --inline --progress --config ./build/webpack.dev.conf.js --open",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config build/webpack.dev.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(my git repo)"
+  },
+  "keywords": [
+    "(my",
+    "keywords)"
+  ],
+  "author": " (my author)",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015": "^6.24.1",
+    "css-loader": "^3.5.2",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^1.1.3",
+    "uglifyjs-webpack-plugin": "^1.1.1",
+    "url-loader": "^4.1.0",
+    "vue-loader": "^13.3.0",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^3.12.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^2.9.1"
+  },
+  "dependencies": {
+    "vue": "^2.6.11",
+    "webpack-merge": "^4.1.5"
+  }
+}

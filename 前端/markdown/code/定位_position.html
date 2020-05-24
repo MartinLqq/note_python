@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    	body {
+    		margin: 0;
+    		padding: 0;
+    	}
+    	
+    	:root {   /* 根元素 (html) */
+		    --container-width: 400px;           /* css定义变量的语法 */
+		    --container-height: 300px;
+		}
+		
+        .container {
+            width: var(--container-width);
+            height: var(--container-height);
+            background-color: #F4F4F4;
+            
+/*            margin-top: 100px;*/
+            overflow: scroll;
+        }
+        .container div {
+        	width: 80px;
+        	height: 60px;
+        	line-height: 60px;
+        	text-align: center;
+        }
+        
+
+        /* 1.默认定位, static */
+        .inner1 {
+        	position: static;
+			background-color: #EED2EE;
+        }
+        /* 2.相对定位, 相对父元素的位置, 占有原来的位置 */
+        .inner2 {
+        	position: relative;
+        	top: 50px;
+        	left: 100px;
+        	z-index: 1;
+        	
+        	background-color: #EE3B3B;
+        }
+        /* 3.绝对定位, 相对父元素的位置, 不占位置 (脱标)  */
+        .inner3 {
+        	position: absolute;
+        	left: var(--container-width);
+        	top: var(--container-height);
+        	z-index: 1;
+        	
+        	background-color: #EE30A7;
+        }
+        /* 4.固定定位, 相对body的位置, 不占位置 (脱标) */
+        .inner4 {
+        	position: fixed;
+        	left: 200px;
+        	top: 150px;
+        	background-color: #8B0A50;
+        }
+        /* 5.吸附定位, 就像是relative和fixed的合体，当在屏幕中时按常规流排版，当卷动到屏幕外时则表现如fixed */
+        .inner5 {
+        	position: sticky;
+        	top: 0;
+        	z-index: 999;
+        	
+        	background-color: #DC143C;
+        }
+    </style>
+</head>
+<body>
+    <div class='container'>
+        <div class='inner1'>static</div>
+        <div class='inner2'>relative</div>
+        <div class='inner3'>absolute</div>
+        <div class='inner4'>fixed</div>
+        <div class='inner5'>sticky</div>
+        
+        <p>文字段落1</p>
+        <p>文字段落2</p>
+        <p>文字段落3</p>
+        <p>文字段落4</p>
+        <p>文字段落5</p>
+        <p>文字段落6</p>
+        <p>文字段落7</p>
+        <p>文字段落8</p>
+        <p>文字段落9</p>
+        <p>文字段落10</p>
+        <p>文字段落11</p>
+        <p>文字段落12</p>
+        <p>文字段落13</p>
+        <p>文字段落14</p>
+        <p>文字段落15</p>
+        <p>文字段落16</p>
+        <p>文字段落17</p>
+        <p>文字段落18</p>
+        <p>文字段落19</p>
+        <p>文字段落20</p>
+    </div>
+</body>
+</html>
