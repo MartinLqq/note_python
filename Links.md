@@ -37,4 +37,15 @@ https://github.com/sparanoid/chinese-copywriting-guidelines
 
 # 国内外编程学习网站推荐
 
-知乎：   https://www.zhihu.com/question/21123049 
+### 知乎推荐
+
+https://www.zhihu.com/question/21123049 
+
+### CoreyMS
+
+- 作者: Corey Schafer 
+- 作者网站: https://coreyms.com/ 
+- youtube:  已关注
+
+
+
