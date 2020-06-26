@@ -1,1 +1,5 @@
 Flask-RESTful~=0.3.8
+
+# tests
+pytest
+requests

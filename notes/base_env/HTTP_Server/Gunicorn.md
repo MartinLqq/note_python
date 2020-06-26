@@ -220,6 +220,229 @@ workers = multiprocessing.cpu_count() * 2 + 1
 """
 ```
 
+### 官方配置示例及说明
+
+ [gunicorn](https://github.com/benoitc/gunicorn)/[examples](https://github.com/benoitc/gunicorn/tree/master/examples)/example_config.py
+
+```python
+# Sample Gunicorn configuration file.
+
+#
+# Server socket
+#
+#   bind - The socket to bind.
+#
+#       A string of the form: 'HOST', 'HOST:PORT', 'unix:PATH'.
+#       An IP is a valid HOST.
+#
+#   backlog - The number of pending connections. This refers
+#       to the number of clients that can be waiting to be
+#       served. Exceeding this number results in the client
+#       getting an error when attempting to connect. It should
+#       only affect servers under significant load.
+#
+#       Must be a positive integer. Generally set in the 64-2048
+#       range.
+#
+
+bind = '127.0.0.1:8000'
+backlog = 2048
+
+#
+# Worker processes
+#
+#   workers - The number of worker processes that this server
+#       should keep alive for handling requests.
+#
+#       A positive integer generally in the 2-4 x $(NUM_CORES)
+#       range. You'll want to vary this a bit to find the best
+#       for your particular application's work load.
+#
+#   worker_class - The type of workers to use. The default
+#       sync class should handle most 'normal' types of work
+#       loads. You'll want to read
+#       http://docs.gunicorn.org/en/latest/design.html#choosing-a-worker-type
+#       for information on when you might want to choose one
+#       of the other worker classes.
+#
+#       A string referring to a Python path to a subclass of
+#       gunicorn.workers.base.Worker. The default provided values
+#       can be seen at
+#       http://docs.gunicorn.org/en/latest/settings.html#worker-class
+#
+#   worker_connections - For the eventlet and gevent worker classes
+#       this limits the maximum number of simultaneous clients that
+#       a single process can handle.
+#
+#       A positive integer generally set to around 1000.
+#
+#   timeout - If a worker does not notify the master process in this
+#       number of seconds it is killed and a new worker is spawned
+#       to replace it.
+#
+#       Generally set to thirty seconds. Only set this noticeably
+#       higher if you're sure of the repercussions for sync workers.
+#       For the non sync workers it just means that the worker
+#       process is still communicating and is not tied to the length
+#       of time required to handle a single request.
+#
+#   keepalive - The number of seconds to wait for the next request
+#       on a Keep-Alive HTTP connection.
+#
+#       A positive integer. Generally set in the 1-5 seconds range.
+#
+
+workers = 1
+worker_class = 'sync'
+worker_connections = 1000
+timeout = 30
+keepalive = 2
+
+#
+#   spew - Install a trace function that spews every line of Python
+#       that is executed when running the server. This is the
+#       nuclear option.
+#
+#       True or False
+#
+
+spew = False
+
+#
+# Server mechanics
+#
+#   daemon - Detach the main Gunicorn process from the controlling
+#       terminal with a standard fork/fork sequence.
+#
+#       True or False
+#
+#   raw_env - Pass environment variables to the execution environment.
+#
+#   pidfile - The path to a pid file to write
+#
+#       A path string or None to not write a pid file.
+#
+#   user - Switch worker processes to run as this user.
+#
+#       A valid user id (as an integer) or the name of a user that
+#       can be retrieved with a call to pwd.getpwnam(value) or None
+#       to not change the worker process user.
+#
+#   group - Switch worker process to run as this group.
+#
+#       A valid group id (as an integer) or the name of a user that
+#       can be retrieved with a call to pwd.getgrnam(value) or None
+#       to change the worker processes group.
+#
+#   umask - A mask for file permissions written by Gunicorn. Note that
+#       this affects unix socket permissions.
+#
+#       A valid value for the os.umask(mode) call or a string
+#       compatible with int(value, 0) (0 means Python guesses
+#       the base, so values like "0", "0xFF", "0022" are valid
+#       for decimal, hex, and octal representations)
+#
+#   tmp_upload_dir - A directory to store temporary request data when
+#       requests are read. This will most likely be disappearing soon.
+#
+#       A path to a directory where the process owner can write. Or
+#       None to signal that Python should choose one on its own.
+#
+
+daemon = False
+raw_env = [
+    'DJANGO_SECRET_KEY=something',
+    'SPAM=eggs',
+]
+pidfile = None
+umask = 0
+user = None
+group = None
+tmp_upload_dir = None
+
+#
+#   Logging
+#
+#   logfile - The path to a log file to write to.
+#
+#       A path string. "-" means log to stdout.
+#
+#   loglevel - The granularity of log output
+#
+#       A string of "debug", "info", "warning", "error", "critical"
+#
+
+errorlog = '-'
+loglevel = 'info'
+accesslog = '-'
+access_log_format = '%(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"'
+
+#
+# Process naming
+#
+#   proc_name - A base to use with setproctitle to change the way
+#       that Gunicorn processes are reported in the system process
+#       table. This affects things like 'ps' and 'top'. If you're
+#       going to be running more than one instance of Gunicorn you'll
+#       probably want to set a name to tell them apart. This requires
+#       that you install the setproctitle module.
+#
+#       A string or None to choose a default of something like 'gunicorn'.
+#
+
+proc_name = None
+
+#
+# Server hooks
+#
+#   post_fork - Called just after a worker has been forked.
+#
+#       A callable that takes a server and worker instance
+#       as arguments.
+#
+#   pre_fork - Called just prior to forking the worker subprocess.
+#
+#       A callable that accepts the same arguments as after_fork
+#
+#   pre_exec - Called just prior to forking off a secondary
+#       master process during things like config reloading.
+#
+#       A callable that takes a server instance as the sole argument.
+#
+
+def post_fork(server, worker):
+    server.log.info("Worker spawned (pid: %s)", worker.pid)
+
+def pre_fork(server, worker):
+    pass
+
+def pre_exec(server):
+    server.log.info("Forked child, re-executing.")
+
+def when_ready(server):
+    server.log.info("Server is ready. Spawning workers")
+
+def worker_int(worker):
+    worker.log.info("worker received INT or QUIT signal")
+
+    ## get traceback info
+    import threading, sys, traceback
+    id2name = {th.ident: th.name for th in threading.enumerate()}
+    code = []
+    for threadId, stack in sys._current_frames().items():
+        code.append("\n# Thread: %s(%d)" % (id2name.get(threadId,""),
+            threadId))
+        for filename, lineno, name, line in traceback.extract_stack(stack):
+            code.append('File: "%s", line %d, in %s' % (filename,
+                lineno, name))
+            if line:
+                code.append("  %s" % (line.strip()))
+    worker.log.debug("\n".join(code))
+
+def worker_abort(worker):
+    worker.log.info("worker received SIGABRT signal")
+```
+
 详尽配置都在这里:   [settings](https://docs.gunicorn.org/en/stable/settings.html#settings)
 
 
@@ -786,6 +1009,25 @@ http {
 
 ### 使用 Virtualenv
 
+```bash
+$ mkdir ~/venvs/
+$ virtualenv ~/venvs/webapp
+$ source ~/venvs/webapp/bin/activate
+$ pip install gunicorn
+$ deactivate
+```
+
+Then you just need to use one of the three Gunicorn scripts that was installed into `~/venvs/webapp/bin`.
+
+Note: You can force the installation of Gunicorn in your Virtualenv by passing `-I` or `--ignore-installed` option to pip:
+
+```bash
+$ source ~/venvs/webapp/bin/activate
+$ pip install -I gunicorn
+```
+
+
+
 ### Monitoring
 
 ##### Gaffer
@@ -794,10 +1036,171 @@ http {
 
 ##### Supervisor
 
-##### Supervisor
+- http://supervisord.org/index.html 
+- [supervisor.md](..\Process_Control_System\Supervisor.md)
+
+gunicorn 官方配置 supervisor 的示例:   [gunicorn](https://github.com/benoitc/gunicorn)/[examples](https://github.com/benoitc/gunicorn/tree/master/examples)/supervisor.conf
+
+```ini
+[program:gunicorn]
+command=/usr/local/bin/gunicorn main:application -c /path/to/project/gunicorn.conf.py
+directory=/path/to/project
+user=nobody
+autorestart=true
+redirect_stderr=true
+```
+
+
+
+
 
 ##### Systemd
 
 
 
 ### Logging
+
+官方的一个 log 示例:    [gunicorn](https://github.com/benoitc/gunicorn)/[examples](https://github.com/benoitc/gunicorn/tree/master/examples)/logging.conf
+
+```ini
+[loggers]
+keys=root, gunicorn.error, gunicorn.access
+# 我们可以在自己的 logging 配置中添加两个logger: 'gunicorn.error', 'gunicorn.access',
+# 来配置 gunicorn 日志
+
+[handlers]
+keys=console, error_file, access_file
+
+[formatters]
+keys=generic, access
+
+[logger_root]
+level=INFO
+handlers=console
+
+[logger_gunicorn.error]
+level=INFO
+handlers=error_file
+propagate=1
+qualname=gunicorn.error
+
+[logger_gunicorn.access]
+level=INFO
+handlers=access_file
+propagate=0
+qualname=gunicorn.access
+
+[handler_console]
+class=StreamHandler
+formatter=generic
+args=(sys.stdout, )
+
+[handler_error_file]
+class=logging.FileHandler
+formatter=generic
+args=('/tmp/gunicorn.error.log',)
+
+[handler_access_file]
+class=logging.FileHandler
+formatter=access
+args=('/tmp/gunicorn.access.log',)
+
+[formatter_generic]
+format=%(asctime)s [%(process)d] [%(levelname)s] %(message)s
+datefmt=%Y-%m-%d %H:%M:%S
+class=logging.Formatter
+
+[formatter_access]
+format=%(message)s
+class=logging.Formatter
+```
+
+
+
+
+
+# 信号处理
+
+ https://docs.gunicorn.org/en/latest/signals.html 
+
+
+
+
+
+# 定制化 Application
+
+*New in version 19.0.*
+
+有时候如果你想集成 Gunicorn 到 WSGI 应用,  可以编写一个类,  继承自  gunicorn.app.base.BaseApplication
+
+ https://docs.gunicorn.org/en/latest/custom.html 
+
+# Gunicorn 的设计架构
+
+### Server Model
+
+一个主进程 master 管理可以多个子进程 worker 集合,  master 不了解任何一个独立的 client,  所有的请求和响应都是 worker 的进程来处理
+
+1. Master
+   - master 进程是一个简单地循环,  监听不同进程的信号,  做出相应处理.  
+   - master 通过监听 TTIN, TTOU 和 CHLD 等信号 来管理正在运行的 workers,
+   - master 监听信号 TTIN, TTOU 来增加或减少正在运行的 workers;   CHLD 信号表明一个子进程的终止,  master 以此来自动重启启动失败的 worker.
+2. Sync Workers
+   - 最基础的默认 worker 类型,  同时只能处理一个客户端请求
+   - sync worker 不支持持续的连接 —— 在每一次响应发送出去之后连接就会断开，即使你在应用的请求头中添加了  `Keep-Alive` 或 ` Connection: keep-alive `.
+3. Async Workers
+   - 异步 worker  基于 [Greenlets](https://github.com/python-greenlet/greenlet) (via [Eventlet](http://eventlet.net/) and [Gevent](http://www.gevent.org/)) ,   Greenlets 是 python 的多线程实现
+   - 如果要完全支持  greenlet ,  需要做一些适配,  例如想用  [Gevent](http://www.gevent.org/) and [Psycopg](http://initd.org/psycopg/) ,  就必须安装并配置好   [psycogreen](https://bitbucket.org/dvarrazzo/psycogreen) 
+4. Tornado Workers
+5. AsyncIO Workers
+
+### 如何选择 worker ?
+
+在以下场景中需要使用异步 workers:
+
+- 应用在处理一次请求时花费时间较长 (阻塞)
+- 直接向 internet 服务请求
+-  流式请求和响应 
+-  长轮询 
+- Web sockets
+- Comet  ( *Comet*是一种用于web的推送技术,能使服务器实时地将更新的信息传送到客户端,而无须客户端发出请求,目前有两种实现方式, 长轮询和 iframe 流。 )
+
+
+
+### 启动多少 worker ?
+
+Gunicorn 只需要 4-12 worker 进程来处理每秒数千次的请求,  官方推荐的 worker 数是 ` (2 x $num_cores) + 1 `
+
+影响 worker 个数的因素有:
+
+1. 硬件 (操作系统)
+2. 软件 (应用程序)
+
+### 使用多少线程 ?
+
+ Depending on the system, using multiple threads, multiple worker processes, or some mixture, may yield the best results 
+
+
+
+
+
+# FAQ
+
+官网列出了一些常见问题及解答:   https://docs.gunicorn.org/en/latest/faq.html 
+
+1. 怎么设置 SCRIPT_NAME ?
+2. 如何重启通过 Gunicorn 运行的 应用程序 ?
+3. 如何测试一个 proxy configuration ?
+4. 如何命名 Gunicorn 进程 ?
+5. 为什么 HTTP Keep-Alive 不生效 ?
+6. 选择哪种 worker ?
+7. 支持哪些 worker ?
+8. 启动多少个 worker 最好 ?
+9. 如何动态改变运行中的 worker 的个数 ?
+10. Gunicorn 会遇到  惊群效应  吗 ?
+11. 为什么控制台没有打印任何日志 ?
+12. 怎么增加文件描述符的最大个数 ?
+13. 怎么增加 socket backlog 个数 ?
+14. 怎么关闭 `sendfile()` ?
+15. 怎么解决 Django 报的 `ImproperlyConfigured` 错误 ?
+16. ...

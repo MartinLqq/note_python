@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+
+<div id="app">
+    <ul>
+        <li v-for='(item,index) in results' :key="index">
+            {{ item }}
+        </li>
+    </ul>
+</div>
+
+<script>
+const app = new Vue({
+    el: '#app',
+    data: {
+      results: []
+    },
+    mounted: function () {
+        this.fetchData()
+    },
+    methods: {
+        fetchData: function(){
+            const params = {
+                username: 'Martin',
+                datetime: new Date().toDateString()
+            }
+            axios.get('http://192.168.31.179:5000/', {params: params}).then(res => {
+                console.log(res)
+                this.results = res.data.results
+                console.log(this.results)
+            })
+        }
+    }
+})
+</script>
+
+</body>
+</html>
+

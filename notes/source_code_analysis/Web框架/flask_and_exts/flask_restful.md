@@ -4,6 +4,80 @@
 
 
 
+# 概览
+
+```python
+# Resource
+    restful.Resource   # 类视图的父类
+    method_decorators  # 类属性, 指定资源方法装饰器
+    
+# Api
+    restful.Api()
+    api.add_resource()
+    @api.representation()  # 自定义响应格式
+    
+# RequestParser
+    restful.reqparse.RequestParser()
+    parser.add_argument()   # 传 Argument 类实例化参数
+    # 自定义校验规则: parser.add_argument(type=my_func)
+    parser.parse_args()
+    parser.copy()
+    parser.replace_argument()
+    parser.remove_argument()
+    
+# fields: 数据格式化
+    restful.fields.XXX
+    marshal()
+    @marshal_with(xx_fields)
+    @marshal_with_field(field)
+    
+    
+# 错误处理
+    # a.自定义错误处理器, 使 Flask-RESTful 处理除了自己路由上的错误还有应用程序上所有的 404 错误
+    api = flask_restful.Api(app, catch_all_404s=True)
+
+    # b.使用 flask 信号处理异常
+    def log_exception(sender, exception, **extra):
+        """ Log an exception to our logging framework """
+        sender.logger.debug('Got exception during processing: %s', exception)
+
+    flask.got_request_exception.connect(log_exception, app)
+
+    # c.定义自定义错误消息
+    errors = {
+        'UserAlreadyExistsError': {
+            'message': "A user with that username already exists.",
+            'status': 409,
+        },
+    }
+    api = flask_restful.Api(app, errors=errors)
+    
+    # d.使用 flask 的 @app.errorhandler(xxx)
+
+
+# 配合 BluePrint 使用
+    from flask import Flask, Blueprint
+    from flask_restful import Api, Resource
+    app = Flask(__name__)
+
+    # 1.创建蓝图对象
+    bp_index = Blueprint('flask_blueprint', __name__)
+    # 2.使用 Api 对象接管蓝图
+    api = Api(bp_index)
+
+    # 3.定义类视图
+    class IndexResource(Resource):
+        def get(self): return 'index'
+    # 4.使用API对象添加路由
+    api.add_resource(IndexResource, '/')
+    # 5.将蓝图注册到app中
+    app.register_blueprint(bp_index)
+```
+
+
+
+
+
 一个最小的 Flask-RESTful API:
 
 ```python
@@ -206,3 +280,12 @@ RequestParser
 ## Argument
 
 ## RequestParser
+
+
+
+
+
+
+
+
+

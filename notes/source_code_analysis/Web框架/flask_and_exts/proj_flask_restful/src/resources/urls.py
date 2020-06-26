@@ -1,30 +1,23 @@
-from . import auth, home, profile
+from flask_restful import Api
+
+from . import session, user
 
 
-routes = [
+urls = [
     {
-        'bp': auth.bp_auth,
-        'api': auth.api,
-        'prefix': '/auth',
-        'urls': auth.urls
+        'bp': session.bp_session,
+        'prefix': '/api/v1/session', 'urls': session.urls
     },
     {
-        'bp': home.bp_home,
-        'api': home.api,
-        'prefix': '/',
-        'urls': home.urls
-    },
-    {
-        'bp': profile.bp_profile,
-        'api': profile.api,
-        'prefix': '/profile',
-        'urls': profile.urls
+        'bp': user.bp_user,
+        'prefix': '/api/v1/user', 'urls': user.urls
     },
 ]
 
 
 def add_routes():
-    for route in routes:
+    for route in urls:
         route['bp'].url_prefix = route['prefix']
         for item in route['urls']:
-            route['api'].add_resource(item['resource'], item['url'])
+            # 使用 Api 对象接管蓝图, 向Api 对象添加 resource
+            Api(route['bp']).add_resource(item['resource'], *item['urls'])

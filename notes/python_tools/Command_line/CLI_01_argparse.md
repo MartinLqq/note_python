@@ -44,7 +44,7 @@ python基础文档：
 
 文档:
 
-- Packaging Py thon Projects：https://packaging.python.org/tutorials/packaging-projects/
+- Packaging Python Projects：https://packaging.python.org/tutorials/packaging-projects/
 
 ## 目录基本结构
 

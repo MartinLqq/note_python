@@ -8,7 +8,7 @@ class RandomNumber(fields.Raw):
         return random.random()
 
 
-auth_fields = {
+login_fields = {
     'username': fields.String,
     'random_str': RandomNumber
 }

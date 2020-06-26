@@ -17,3 +17,8 @@ CSS参考手册:  css.doyoe.com
 npm 源:  unpkg.com
 
 nodejs:   nodejs.cn
+
+传智播客官方CSDN博客(很多技术博客和视频教程):  me.csdn.net/itcast_cn
+
+Java学习平台, 教程案例容易理解, 流程清晰:   how2j.cn
+

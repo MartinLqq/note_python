@@ -327,3 +327,13 @@ sh /home/lqq/pycharm-community-2019.1.1/bin/pycharm.sh
 ```
 
 
+
+
+
+# 使用远程 Docker 镜像解释器
+
+- https://www.cnblogs.com/offduty/p/12174542.html
+- 相关内容:
+  1. 专业版 pycharm
+  2. pycharm 怎么配置通过 sftp 上传代码到虚拟机中
+  3. 理清三个环境：【windows】 上的 pycharm 怎么配置 【虚拟机】与在虚拟机上运行的【docker容器】 之间的路径映射(挂载数据卷)

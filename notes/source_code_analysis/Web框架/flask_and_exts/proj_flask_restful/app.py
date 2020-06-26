@@ -11,16 +11,17 @@ def create_app(conf_name):
 
     add_routes()
 
-    from src.resources.auth import bp_auth
-    from src.resources.profile import bp_profile
-    from src.resources.home import bp_home
+    from src.resources.session import bp_session
+    from src.resources.user import bp_user
 
-    app.register_blueprint(bp_auth)
-    app.register_blueprint(bp_profile)
-    app.register_blueprint(bp_home)
+    app.register_blueprint(bp_session)
+    app.register_blueprint(bp_user)
 
     @app.errorhandler(RestError)
     def handle_demo_error(err: RestError):
-        return {'error': err.message, 'code': err.code}, 400
+        return {
+                   'error': err.message,
+                   'code': err.code
+               }, 400
 
     return app

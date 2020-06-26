@@ -14,7 +14,7 @@ Nginx ("engine x") 是一个高性能的 HTTP 和反向代理服务器,特点是
 
 1. Nginx 作为 web 服务器
 
-   Nginx 可以作为静态页面的 web 服务器，同时还支持 CGI 协议的动态语言，比如 perl、php 等。 但是不支持 java。Java 程序只能通过与 tomcat 配合完成。 Nginx 专为性能优化而开发，性能是其最重要的考量,实现上非常注重效率 ，能经受高负载的考验,有报告表明能支持高达 50,000 个并发连接数。  https://lnmp.org/nginx.html 
+   Nginx 可以作为静态页面的 web 服务器，同时还支持 CGI 协议的动态语言，比如 perl、php 等。 但是不支持 java。Java 程序只能通过与 tomcat 配合完成。 Nginx 能支持高达 50,000 个并发连接数。  https://lnmp.org/nginx.html 
 
 2. 正向代理
 
@@ -58,7 +58,7 @@ Nginx ("engine x") 是一个高性能的 HTTP 和反向代理服务器,特点是
    
    # 重启 nginx （注意不会重新读取配置文件）
    $ nginx -s reopen    # s ==> signal
-   # 重载  (重载配置, 区别于 reopen 重启)
+   # 重载  (重载配置, 区别于 reopen)
    $ nginx -s  reload
    
    # 测试配置文件是否正确
@@ -92,7 +92,7 @@ Nginx ("engine x") 是一个高性能的 HTTP 和反向代理服务器,特点是
 
 Windows:  Nginx 解压目录下的 html 目录下,  如 `nginx-1.17.10\html`
 
-Nginx:  
+Linux:  /usr/share/nginx/html 
 
 # 配置
 
@@ -100,11 +100,6 @@ Nginx:
 
 - Linux:   `/usr/local/nginx/conf/nginx.conf`
 - Windows:   Nginx 解压目录下的 conf 目录下,  如 `nginx-1.17.10\conf\`
-
-默认服务目录
-
-- Linux:  `/usr/share/nginx/html`
-- Windows:  Nginx 解压目录下的 html 目录下,  如 `nginx-1.17.10\html`
 
 
 
@@ -1105,7 +1100,7 @@ windows 上测试 docker + nginx
 
 2. 拉取 nginx 镜像并启动容器,  启动时挂载主机的 `~/workspace/nginx-test/html/` 目录到容器内的 `/usr/share/nginx/html`  目录   (方便将静态文件放入容器内),   挂载 `~/workspace/nginx-test/nginx.conf` 文件到 `/etc/nginx/nginx.conf` 文件  (方便修改容器内 Nginx 配置)
 
-   ```
+   ```bash
    docker run \
        --name nginx-server \
        -p 80:80 \
@@ -1116,3 +1111,4 @@ windows 上测试 docker + nginx
    ```
 
 > 如果需要进入容器:  `docker exec -it nginx-server bash`
+
