@@ -318,3 +318,46 @@ class MidnightRotatingFileHandler(FileHandler):
 
 ### TimedRotatingFileHandler
 
+
+
+
+
+
+
+
+
+
+
+# 开源 log 工具库
+
+### loguru
+
+Github:  https://github.com/Delgan/loguru
+
+文档:   https://loguru.readthedocs.io/ 
+
+```
+pip install loguru
+```
+
+
+
+```python
+通过旋转/保留/压缩更方便地记录文件
+使用大括号样式的现代字符串格式
+在线程或main中捕获异常
+漂亮的日志颜色
+异步、线程安全、多进程安全
+完全描述性异常
+根据需要进行结构化日志记录
+可自定义级别
+更好的日期时间处理
+适用于脚本和库
+完全兼容标准日志记录
+通过环境变量的个性化默认值
+```
+
+
+
+
+

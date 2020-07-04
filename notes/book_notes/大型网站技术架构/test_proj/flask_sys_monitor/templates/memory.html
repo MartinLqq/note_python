@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="col-xs-9">
+    <table class="table table-bordered">
+      <tr >
+          <th width="400">内存大小</th>
+          <th>{{total}}G</th>
+      </tr>
+        <tr>
+          <th>可用内存</th>
+          <th>{{available}}G</th>
+      </tr>
+        <tr>
+          <th>内存占用</th>
+          <th>{{percent}}%</th>
+      </tr>
+        <tr>
+          <th>已用内存</th>
+          <th>{{used}}G</th>
+      </tr>
+        <tr>
+          <th>空闲内存</th>
+          <th>{{free}}G</th>
+      </tr>
+<!--         <tr>
+          <th>buffers</th>
+          <th>{{buffers}}M</th>
+      </tr>
+        <tr>
+          <th>cached</th>
+          <th>{{cached}}G</th>
+      </tr> -->
+    </table>
+    </div>
+{% endblock %}

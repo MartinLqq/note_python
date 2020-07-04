@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="col-xs-9">
+    <table class="table table-bordered">
+      <tr >
+          <th width="300">用户名</th>
+          <th width="300">终端</th>
+          <th width="300">主机名</th>
+          <th width="300">登录时间</th>
+      </tr>
+        <tr>
+          <th>{{user}}</th>
+          <th>123</th>
+            <th>{{master}}</th>
+            <th>{{now_time}}</th>
+      </tr>
+
+    </table>
+    </div>
+{% endblock %}

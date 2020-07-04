@@ -82,3 +82,15 @@ setup(
 )
 ```
 
+
+
+
+
+# py2sec - 开源的代码加密脚本 
+
+[py2sec](https://github.com/cckuailong/py2sec)
+
+
+
+
+

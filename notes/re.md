@@ -162,5 +162,78 @@
 
 
 
+# 正则工具函数
+```python
+# coding=utf-8
+
+import re
+
+
+def extract_using_content_and_single_rule(content, rule):
+    pre_context, post_context, prefix, suffix, must_contain, not_contain, allow_only, min_len, max_len = rule[:9]
+    # compatible with the old(9 elements with out is_greedy) rules
+    is_greedy = True
+    if len(rule) == 10:
+        is_greedy = rule[9]
+    if is_greedy:
+        regex_str = '(?<=%s)((%s).{%d,%d}(%s))(?=%s)' % (
+            pre_context,
+            prefix,
+            max(0, min_len - len(prefix) - len(suffix)),
+            max(0, max_len - len(prefix) - len(suffix)),
+            suffix,
+            post_context
+        )
+    else:
+        regex_str = '(?<=%s)((%s).{%d,%d}?(%s))(?=%s)' % (
+            pre_context,
+            prefix,
+            max(0, min_len - len(prefix) - len(suffix)),
+            max(0, max_len - len(prefix) - len(suffix)),
+            suffix,
+            post_context
+        )
+    regex = re.compile(regex_str, re.U)
+    # AND operator is represented as '&', OR operator is built-in in regex as '|'.
+    if must_contain:
+        must_contain = must_contain.split('&')
+    if not_contain:
+        not_contain = not_contain.split('&')
+    for m in regex.finditer(content):
+        index = m.start()
+        value = m.group()
+        if must_contain:
+            if None in [re.search(must_contain_unit, value, re.U) for must_contain_unit in must_contain]:
+                continue
+        if not_contain:
+            print([re.search(not_contain_unit, value, re.U) for not_contain_unit in not_contain])
+            # BUG: if None not in [re.search(not_contain_unit, value, re.U) for not_contain_unit in not_contain]:
+            if any([re.search(not_contain_unit, value, re.U) for not_contain_unit in not_contain]):
+                continue
+        if allow_only and not re.match('^[{}]*$'.format(''.join(allow_only.split('|'))), value, re.U):
+            continue
+        yield index, value
+
+
+
+if __name__ == '__main__':
+    ret = extract_using_content_and_single_rule(
+        content='是ABC-123浮标的改进型',
+        rule=[
+             '是',      # pre_context
+             '',        # post_context
+             '',        # prefix
+             '浮标',    # suffix
+             '',        # must_contain
+             '，&ABC',  # not_contain
+             '\w|-',    # allow_only
+             4,         # min_len
+             20         # max_len
+        ]
+    )
+    print(list(ret))
+
+```
+
 
 

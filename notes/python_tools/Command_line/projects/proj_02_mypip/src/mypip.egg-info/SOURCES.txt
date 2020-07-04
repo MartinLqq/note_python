@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/mypip/__init__.py
+src/mypip.egg-info/PKG-INFO
+src/mypip.egg-info/SOURCES.txt
+src/mypip.egg-info/dependency_links.txt
+src/mypip.egg-info/entry_points.txt
+src/mypip.egg-info/requires.txt
+src/mypip.egg-info/top_level.txt

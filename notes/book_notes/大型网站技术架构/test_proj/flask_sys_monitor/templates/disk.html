@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="col-xs-9">
+    <table class="table table-bordered">
+      <tr >
+          <th width="300">设备</th>
+          <th width="300">挂载点</th>
+          <th width="300">容量</th>
+          <th width="300">已用</th>
+          <th width="300">剩余</th>
+          <th width="300">类型</th>
+          <th width="300">选项</th>
+      </tr>
+        <tr>
+          <th>{{device1}}</th>
+          <th>{{mountpoint1}}</th>
+          <th>{{total1}}G</th>
+          <th>{{used1}}G({{percent1}}%)</th>
+          <th>{{free1}}G</th>
+          <th>{{fstype1}}</th>
+          <th>{{opts1}}</th>
+      </tr>
+        <tr>
+          <th>{{device2}}</th>
+          <th>{{mountpoint2}}</th>
+          <th>{{total2}}G</th>
+          <th>{{used2}}G({{percent2}}%)</th>
+          <th>{{free2}}G</th>
+          <th>{{fstype2}}</th>
+          <th>{{opts2}}</th>
+      </tr>
+        <tr>
+          <th>{{device3}}</th>
+          <th>{{mountpoint3}}</th>
+          <th>{{total3}}G</th>
+          <th>{{used3}}G({{percent3}}%)</th>
+          <th>{{free3}}G</th>
+          <th>{{fstype3}}</th>
+          <th>{{opts3}}</th>
+      </tr>
+        <tr>
+          <th>{{device4}}</th>
+          <th>{{mountpoint4}}</th>
+          <th>{{total4}}G</th>
+          <th>{{used4}}G({{percent4}}%)</th>
+          <th>{{free4}}G</th>
+          <th>{{fstype4}}</th>
+          <th>{{opts4}}</th>
+      </tr>
+<!--         <tr>
+          <th>{{device5}}</th>
+          <th>{{mountpoint5}}</th>
+          <th>{{total5}}G</th>
+          <th>{{used5}}G({{percent5}}%)</th>
+          <th>{{free5}}G</th>
+          <th>{{fstype5}}</th>
+          <th>{{opts5}}</th>
+      </tr> -->
+    </table>
+    </div>
+{% endblock %}

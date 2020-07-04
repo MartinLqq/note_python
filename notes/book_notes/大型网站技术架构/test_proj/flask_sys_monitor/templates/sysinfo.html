@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="col-xs-9">
+    <table class="table table-bordered">
+      <tr >
+          <th width="400">主机名</th>
+          <th>{{master}}</th>
+      </tr>
+        <tr>
+          <th>内核名称</th>
+          <th>{{system}}</th>
+      </tr>
+        <tr>
+          <th>发行版本号</th>
+          <th>{{machine}}</th>
+      </tr>
+        <tr>
+          <th>内核版本</th>
+          <th>{{version}}</th>
+      </tr>
+        <tr>
+          <th>系统构架</th>
+          <th>{{architecture}}</th>
+      </tr>
+        <tr>
+          <th>现在时间</th>
+          <th>{{now_time}}</th>
+      </tr>
+        <tr>
+          <th>开机时间</th>
+          <th>{{boot_time}}</th>
+      </tr>
+        <tr>
+          <th>运行时间</th>
+          <th>{{delta_time}}</th>
+      </tr>
+
+    </table>
+    </div>
+{% endblock %}

@@ -1,0 +1,7 @@
+Click
+
+[dev]
+check-manifest
+
+[test]
+coverage

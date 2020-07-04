@@ -504,3 +504,4 @@ pip install elasticsearch==2.4.1
 # xadmin
 
  Django 的第三方扩展，可是使 Django 的 admin 站点使用更方便 
+

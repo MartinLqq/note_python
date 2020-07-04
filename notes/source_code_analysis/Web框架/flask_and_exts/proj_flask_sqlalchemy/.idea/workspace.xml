@@ -1,0 +1,1980 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$USER_HOME$/PycharmProjects/lqq_01/venv/Lib/site-packages/flask_sqlalchemy/__init__.py" line="670" mnemonic="1" />
+    <bookmark url="file://$USER_HOME$/PycharmProjects/lqq_01/venv/Lib/site-packages/flask_sqlalchemy/__init__.py" line="956" mnemonic="2" />
+    <bookmark url="file://$USER_HOME$/PycharmProjects/lqq_01/venv/Lib/site-packages/flask_sqlalchemy/__init__.py" line="916" mnemonic="3" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bde7ce1d-893a-4e29-8975-051a5306d4f6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../../../github等搜索技巧.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../0_python知识点汇总.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../0_python知识点汇总.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../book_notes/python_cookbook.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../book_notes/python_cookbook.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../python_project/flask/markdown/Flask框架__01 视图及路由.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../python_project/flask/markdown/Flask框架__01 视图及路由.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../python_project/flask/markdown/Flask框架__02 模板.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../python_project/flask/markdown/Flask框架__02 模板.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../python_project/flask/markdown/Flask框架__03 数据库扩展.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../python_project/flask/markdown/Flask框架__03 数据库扩展.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../python杂记.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../python杂记.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../all.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../all.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../清单.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../清单.md" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/proj_flask_sqlalchemy$smallest_flask_sqlalchemy_api.coverage" NAME="smallest_flask_sqlalchemy_api Coverage Results" MODIFIED="1584797717540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/proj_flask_sqlalchemy$main.coverage" NAME="main Coverage Results" MODIFIED="1584800436286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/proj_flask_sqlalchemy$db_model_test__2_.coverage" NAME="db_model_test (2) Coverage Results" MODIFIED="1584862622899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_sqlalchemy_without_flask" />
+    <SUITE FILE_PATH="coverage/proj_flask_sqlalchemy$tmp.coverage" NAME="tmp Coverage Results" MODIFIED="1584869686427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/proj_flask_sqlalchemy$db_model_test__1_.coverage" NAME="db_model_test (1) Coverage Results" MODIFIED="1584801000200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/only_test_sqlalchemy" />
+    <SUITE FILE_PATH="coverage/proj_flask_sqlalchemy$db_model_test.coverage" NAME="db_model_test Coverage Results" MODIFIED="1584799606132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/proj_flask_sqlalchemy$smallest_flask_sqlalchemy_test.coverage" NAME="smallest_flask_sqlalchemy_test Coverage Results" MODIFIED="1584844356396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="477920868">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="123" />
+          <entry key="pyi" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="123" />
+          <entry key="PythonStub" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Python Console" value="659" />
+          <entry key="dummy" value="5" />
+          <entry key="py" value="4682" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="Python" value="5341" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="proj_flask_sqlalchemy" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>models_committed</find>
+      <find>plain</find>
+      <find>SessionBase</find>
+      <find>create</find>
+      <find>session</find>
+      <find>create_all</find>
+      <find>relationship</find>
+      <find>Column</find>
+      <find>use_native_unicode</find>
+      <find>options</find>
+      <find>tables =</find>
+      <find>tables</find>
+      <find>subclass</find>
+      <find>server_default</find>
+      <find>onupdate</find>
+      <find>strategies</find>
+    </findStrings>
+    <dirStrings>
+      <dir>C:\Users\Administrator\PycharmProjects\lqq_01\venv\Lib\site-packages\sqlalchemy</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/use_flask_migrate.py" />
+        <option value="$PROJECT_DIR$/smallest_flask_sqlalchemy_api.py" />
+        <option value="$PROJECT_DIR$/db.py" />
+        <option value="$PROJECT_DIR$/db_model_test.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/only_test_sqlalchemy/db_model_test.py" />
+        <option value="$PROJECT_DIR$/only_test_sqlalchemy/db.py" />
+        <option value="$PROJECT_DIR$/test_sqlalchemy_without_flask/db.py" />
+        <option value="$PROJECT_DIR$/test_sqlalchemy_without_flask/db_model_test.py" />
+        <option value="$PROJECT_DIR$/tmp.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="697" />
+    <option name="height" value="745" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="proj_flask_sqlalchemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proj_flask_sqlalchemy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proj_flask_sqlalchemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proj_flask_sqlalchemy" type="462c0819:PsiDirectoryNode" />
+              <item name="test_sqlalchemy_without_flask" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proj_flask_sqlalchemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="proj_flask_sqlalchemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (lqq_01) &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="proj_flask_sqlalchemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (lqq_01) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proj_flask_sqlalchemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (lqq_01) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proj_flask_sqlalchemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (lqq_01) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proj_flask_sqlalchemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (lqq_01) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="flask_sqlalchemy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proj_flask_sqlalchemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (lqq_01) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="sqlalchemy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proj_flask_sqlalchemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (lqq_01) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="sqlalchemy" type="462c0819:PsiDirectoryNode" />
+              <item name="dialects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proj_flask_sqlalchemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (lqq_01) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="sqlalchemy" type="462c0819:PsiDirectoryNode" />
+              <item name="engine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proj_flask_sqlalchemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (lqq_01) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="sqlalchemy" type="462c0819:PsiDirectoryNode" />
+              <item name="sql" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../proj_flask_migrate" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Important重要\Learning-Notes\notes\source_code_analysis\Web框架\flask_and_exts\proj_flask_sqlalchemy\only_test_sqlalchemy" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.tmp">
+    <configuration name="db_model_test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="proj_flask_sqlalchemy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/only_test_sqlalchemy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/only_test_sqlalchemy/db_model_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="db_model_test (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="proj_flask_sqlalchemy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_sqlalchemy_without_flask" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_sqlalchemy_without_flask/db_model_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="proj_flask_sqlalchemy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="smallest_flask_sqlalchemy_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="proj_flask_sqlalchemy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/smallest_flask_sqlalchemy_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tmp" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="proj_flask_sqlalchemy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tmp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.tmp" />
+      <item itemvalue="Python.db_model_test (1)" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.smallest_flask_sqlalchemy_test" />
+      <item itemvalue="Python.db_model_test (2)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.tmp" />
+        <item itemvalue="Python.db_model_test (2)" />
+        <item itemvalue="Python.smallest_flask_sqlalchemy_test" />
+        <item itemvalue="Python.db_model_test (1)" />
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bde7ce1d-893a-4e29-8975-051a5306d4f6" name="Default Changelist" comment="" />
+      <created>1584777353797</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584777353797</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" order="0" sideWeight="0.4059406" side_tool="true" weight="0.25340393" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.78723407" visible="true" weight="0.25642964" />
+      <window_info id="Structure" order="2" sideWeight="0.21276596" side_tool="true" weight="0.17927383" />
+      <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="4" weight="0.31663975" />
+      <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.35541195" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4184168" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
+      <window_info anchor="right" id="SciView" order="2" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" sideWeight="0.4059406" side_tool="true" weight="0.25340393" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.78723407" weight="0.17927383" />
+      <window_info id="Structure" order="2" sideWeight="0.21276596" side_tool="true" weight="0.17927383" />
+      <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="4" visible="true" weight="0.31663975" />
+      <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.31663975" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4378029" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
+      <window_info anchor="right" id="SciView" order="2" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/PycharmProjects/lqq_01/venv/Lib/encodings/cp1252.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/PycharmProjects/lqq_01/venv/Lib/site-packages/flask_sqlalchemy/__init__.py</url>
+          <line>952</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/PycharmProjects/lqq_01/venv/Lib/site-packages/flask_sqlalchemy/__init__.py</url>
+          <line>919</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/PycharmProjects/lqq_01/venv/Lib/site-packages/flask_sqlalchemy/__init__.py</url>
+          <line>754</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/PycharmProjects/lqq_01/venv/Lib/site-packages/flask_sqlalchemy/__init__.py</url>
+          <line>677</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tmp.py</url>
+          <line>90</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>self.Model.metadata</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>encoding_table.__doc__</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>encoding_table.__dir__()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>encoding_table.__dict__()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>encoding_table.__dict__</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>encoding_table.all()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>encoding_table.items()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>encoding_table.__dir__</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>encoding_table()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>encoding_table</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/threading.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="82" column="8" selection-start-line="82" selection-start-column="8" selection-end-line="82" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/lqq_01/venv/Lib/site-packages/sqlalchemy/sql/selectable.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="3623" column="22" lean-forward="true" selection-start-line="3623" selection-start-column="22" selection-end-line="3625" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/lqq_01/venv/Lib/site-packages/flask_script/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1542">
+          <caret line="235" column="8" selection-start-line="235" selection-start-column="8" selection-end-line="235" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/lqq_01/venv/Lib/site-packages/sqlalchemy/databases/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-196">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#354#398#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/lqq_01/venv/Lib/site-packages/sqlalchemy/log.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/449002636/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="5547" column="4" selection-start-line="5547" selection-start-column="4" selection-end-line="5547" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/lqq_01/venv/Lib/site-packages/sqlalchemy/orm/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="403" column="4" selection-start-line="403" selection-start-column="4" selection-end-line="403" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/lqq_01/venv/Lib/site-packages/sqlalchemy/orm/scoping.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="48" column="37" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/lqq_01/venv/Lib/site-packages/sqlalchemy/inspection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-138">
+          <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/lqq_01/venv/Lib/site-packages/sqlalchemy/sql/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="631" column="14" selection-start-line="631" selection-start-column="11" selection-end-line="631" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/lqq_01/venv/Lib/site-packages/sqlalchemy/orm/query.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="135" column="48" selection-start-line="135" selection-start-column="35" selection-end-line="135" selection-end-column="48" />
+          <folding>
+            <element signature="n#!!doc" />
+            <element signature="e#233#736#1" />
+            <element signature="e#1556#2406#1" />
+            <element signature="e#3576#3927#1" />
+            <element signature="e#4816#6360#0" />
+            <element signature="e#5000#5056#0" />
+            <element signature="e#6226#6360#0" />
+            <element signature="e#6419#7655#0" />
+            <element signature="e#6524#7655#0" />
+            <element signature="e#6568#7655#0" />
+            <element signature="e#6608#7610#0" />
+            <element signature="e#6780#7294#0" />
+            <element signature="e#6909#7247#0" />
+            <element signature="e#7539#7588#0" />
+            <element signature="e#7732#7951#0" />
+            <element signature="e#7800#7951#0" />
+            <element signature="e#8014#9563#0" />
+            <element signature="e#8097#9024#0" />
+            <element signature="e#8246#8568#0" />
+            <element signature="e#8363#8525#0" />
+            <element signature="e#8415#8524#0" />
+            <element signature="e#8626#8774#0" />
+            <element signature="e#8674#8773#0" />
+            <element signature="e#8809#9024#0" />
+            <element signature="e#9218#9348#0" />
+            <element signature="e#9623#9830#0" />
+            <element signature="e#9679#9830#0" />
+            <element signature="e#9891#10454#0" />
+            <element signature="e#9946#10129#0" />
+            <element signature="e#10501#10664#0" />
+            <element signature="e#10508#10664#0" />
+            <element signature="e#10734#10763#0" />
+            <element signature="e#10826#10854#0" />
+            <element signature="e#10922#12739#0" />
+            <element signature="e#11052#11103#0" />
+            <element signature="e#11269#11458#0" />
+            <element signature="e#11335#11458#0" />
+            <element signature="e#11505#11937#0" />
+            <element signature="e#11505#11556#0" />
+            <element signature="e#11803#11905#0" />
+            <element signature="e#11990#12118#0" />
+            <element signature="e#12211#12626#0" />
+            <element signature="e#12263#12626#0" />
+            <element signature="e#12263#12304#0" />
+            <element signature="e#12538#12626#0" />
+            <element signature="e#12783#12851#0" />
+            <element signature="e#12889#12991#0" />
+            <element signature="e#13029#13342#0" />
+            <element signature="e#13029#13190#1" />
+            <element signature="e#13398#13497#0" />
+            <element signature="e#13437#13497#0" />
+            <element signature="e#13538#13640#0" />
+            <element signature="e#13678#13868#0" />
+            <element signature="e#13748#13847#0" />
+            <element signature="e#13926#14166#0" />
+            <element signature="e#13983#14118#0" />
+            <element signature="e#14033#14106#0" />
+            <element signature="e#14225#14470#0" />
+            <element signature="e#14265#14435#0" />
+            <element signature="e#14344#14421#0" />
+            <element signature="e#14508#14641#0" />
+            <element signature="e#14681#14768#0" />
+            <element signature="e#14817#14884#0" />
+            <element signature="e#14969#15471#0" />
+            <element signature="e#15332#15471#0" />
+            <element signature="e#15382#15463#0" />
+            <element signature="e#15556#15753#0" />
+            <element signature="e#15812#16084#0" />
+            <element signature="e#15902#16041#0" />
+            <element signature="e#15952#16033#0" />
+            <element signature="e#16139#16415#0" />
+            <element signature="e#16242#16415#0" />
+            <element signature="e#16293#16406#0" />
+            <element signature="e#16463#16973#0" />
+            <element signature="e#16590#16973#0" />
+            <element signature="e#16640#16928#0" />
+            <element signature="e#17202#17617#0" />
+            <element signature="e#17649#17757#0" />
+            <element signature="e#17806#18345#0" />
+            <element signature="e#17806#18027#1" />
+            <element signature="e#18195#18239#0" />
+            <element signature="e#18431#19619#0" />
+            <element signature="e#18431#19401#1" />
+            <element signature="e#19676#21878#0" />
+            <element signature="e#19676#21773#1" />
+            <element signature="e#21915#22254#0" />
+            <element signature="e#21915#22186#1" />
+            <element signature="e#22289#22593#0" />
+            <element signature="e#22289#22525#1" />
+            <element signature="e#22643#22909#0" />
+            <element signature="e#22643#22868#1" />
+            <element signature="e#22953#23013#0" />
+            <element signature="e#23083#23303#0" />
+            <element signature="e#23083#23262#1" />
+            <element signature="e#23372#23931#0" />
+            <element signature="e#23372#23891#1" />
+            <element signature="e#23979#24283#0" />
+            <element signature="e#24025#24272#0" />
+            <element signature="e#24339#25332#0" />
+            <element signature="e#24339#25299#1" />
+            <element signature="e#25401#26220#0" />
+            <element signature="e#25401#26180#1" />
+            <element signature="e#26271#26522#0" />
+            <element signature="e#26271#26491#1" />
+            <element signature="e#26591#26906#0" />
+            <element signature="e#26591#26872#1" />
+            <element signature="e#27123#28728#0" />
+            <element signature="e#27123#28265#1" />
+            <element signature="e#28316#28409#0" />
+            <element signature="e#28789#31990#0" />
+            <element signature="e#28789#31817#1" />
+            <element signature="e#31927#31989#0" />
+            <element signature="e#32026#34584#0" />
+            <element signature="e#32026#34505#1" />
+            <element signature="e#34782#36886#0" />
+            <element signature="e#34782#36686#1" />
+            <element signature="e#36989#38271#0" />
+            <element signature="e#37377#37625#0" />
+            <element signature="e#37427#37557#0" />
+            <element signature="e#37779#38216#0" />
+            <element signature="e#37960#38216#0" />
+            <element signature="e#38007#38054#0" />
+            <element signature="e#38332#39419#0" />
+            <element signature="e#38332#39140#1" />
+            <element signature="e#39177#39419#0" />
+            <element signature="e#39289#39419#0" />
+            <element signature="e#39482#39815#0" />
+            <element signature="e#39482#39781#1" />
+            <element signature="e#39877#40408#0" />
+            <element signature="e#39877#40369#1" />
+            <element signature="e#40483#40757#0" />
+            <element signature="e#40483#40717#1" />
+            <element signature="e#40837#42782#0" />
+            <element signature="e#40837#41885#1" />
+            <element signature="e#42060#42701#0" />
+            <element signature="e#42161#42340#0" />
+            <element signature="e#42299#42340#0" />
+            <element signature="e#42375#42701#0" />
+            <element signature="e#42429#42546#0" />
+            <element signature="e#42595#42682#0" />
+            <element signature="e#42857#43140#0" />
+            <element signature="e#43206#43937#0" />
+            <element signature="e#43206#43905#1" />
+            <element signature="e#43983#51470#0" />
+            <element signature="e#43983#51153#1" />
+            <element signature="e#51543#51573#0" />
+            <element signature="e#51646#52289#0" />
+            <element signature="e#51676#51906#0" />
+            <element signature="e#52019#52063#0" />
+            <element signature="e#52331#52653#0" />
+            <element signature="e#52713#52910#0" />
+            <element signature="e#52979#53865#0" />
+            <element signature="e#52979#53828#1" />
+            <element signature="e#53930#54310#0" />
+            <element signature="e#54172#54216#0" />
+            <element signature="e#54379#54471#0" />
+            <element signature="e#54552#54787#0" />
+            <element signature="e#54552#54747#1" />
+            <element signature="e#54827#55193#0" />
+            <element signature="e#54827#55150#1" />
+            <element signature="e#55246#55279#0" />
+            <element signature="e#55352#55910#0" />
+            <element signature="e#55352#55411#0" />
+            <element signature="e#55757#55827#0" />
+            <element signature="e#55854#55910#0" />
+            <element signature="e#55959#56484#0" />
+            <element signature="e#55959#56460#1" />
+            <element signature="e#56574#57195#0" />
+            <element signature="e#56574#57039#1" />
+            <element signature="e#57264#57729#0" />
+            <element signature="e#57264#57673#1" />
+            <element signature="e#57801#58218#0" />
+            <element signature="e#57801#58146#1" />
+            <element signature="e#58282#59215#0" />
+            <element signature="e#58282#59147#1" />
+            <element signature="e#59370#60595#0" />
+            <element signature="e#59370#60387#1" />
+            <element signature="e#60663#61375#0" />
+            <element signature="e#60663#61057#1" />
+            <element signature="e#61160#61296#0" />
+            <element signature="e#61204#61295#0" />
+            <element signature="e#62311#62608#0" />
+            <element signature="e#62653#63549#0" />
+            <element signature="e#62653#63372#1" />
+            <element signature="e#63392#63502#0" />
+            <element signature="e#63655#64614#0" />
+            <element signature="e#63655#64105#1" />
+            <element signature="e#64151#64389#0" />
+            <element signature="e#64193#64291#0" />
+            <element signature="e#64345#64389#0" />
+            <element signature="e#64720#65515#0" />
+            <element signature="e#64720#65113#1" />
+            <element signature="e#65159#65245#0" />
+            <element signature="e#65200#65245#0" />
+            <element signature="e#65618#66674#0" />
+            <element signature="e#65618#66146#1" />
+            <element signature="e#66332#66470#0" />
+            <element signature="e#66376#66469#0" />
+            <element signature="e#66720#66831#0" />
+            <element signature="e#66866#68088#0" />
+            <element signature="e#66866#68038#1" />
+            <element signature="e#68127#68377#0" />
+            <element signature="e#68127#68323#1" />
+            <element signature="e#68416#68667#0" />
+            <element signature="e#68416#68613#1" />
+            <element signature="e#68710#68969#0" />
+            <element signature="e#68710#68911#1" />
+            <element signature="e#69006#69252#0" />
+            <element signature="e#69006#69200#1" />
+            <element signature="e#69292#69545#0" />
+            <element signature="e#69292#69490#1" />
+            <element signature="e#69593#81618#0" />
+            <element signature="e#69593#81083#1" />
+            <element signature="e#81133#81294#0" />
+            <element signature="e#81326#81422#0" />
+            <element signature="e#81671#82335#0" />
+            <element signature="e#81671#81879#1" />
+            <element signature="e#81920#82040#0" />
+            <element signature="e#82072#82168#0" />
+            <element signature="e#82382#82722#0" />
+            <element signature="e#82411#82456#0" />
+            <element signature="e#82561#82694#0" />
+            <element signature="e#82868#87999#0" />
+            <element signature="e#82868#83022#1" />
+            <element signature="e#83157#83231#0" />
+            <element signature="e#83273#83362#0" />
+            <element signature="e#83378#83470#0" />
+            <element signature="e#83378#83409#0" />
+            <element signature="e#83566#87999#0" />
+            <element signature="e#83610#83834#0" />
+            <element signature="e#83610#83642#0" />
+            <element signature="e#83894#83935#0" />
+            <element signature="e#84652#84798#0" />
+            <element signature="e#84812#84867#0" />
+            <element signature="e#85048#85636#0" />
+            <element signature="e#85227#85358#0" />
+            <element signature="e#85427#85636#0" />
+            <element signature="e#85718#87653#0" />
+            <element signature="e#85763#85911#0" />
+            <element signature="e#86234#86333#0" />
+            <element signature="e#86548#87653#0" />
+            <element signature="e#86548#86586#0" />
+            <element signature="e#86773#87653#0" />
+            <element signature="e#86773#86819#0" />
+            <element signature="e#87474#87620#0" />
+            <element signature="e#87517#87612#0" />
+            <element signature="e#87735#87836#0" />
+            <element signature="e#88134#90784#0" />
+            <element signature="e#88292#88451#0" />
+            <element signature="e#88490#88854#0" />
+            <element signature="e#88722#88843#0" />
+            <element signature="e#88935#89101#0" />
+            <element signature="e#88985#89068#0" />
+            <element signature="e#89234#89937#0" />
+            <element signature="e#89293#89341#0" />
+            <element signature="e#89578#89937#0" />
+            <element signature="e#89653#89937#0" />
+            <element signature="e#89893#89937#0" />
+            <element signature="e#90056#90187#0" />
+            <element signature="e#90342#90380#0" />
+            <element signature="e#90485#90635#0" />
+            <element signature="e#90508#90634#0" />
+            <element signature="e#90913#94020#0" />
+            <element signature="e#91001#91117#0" />
+            <element signature="e#91301#91479#0" />
+            <element signature="e#91351#91445#0" />
+            <element signature="e#91656#92250#0" />
+            <element signature="e#91761#91971#0" />
+            <element signature="e#91881#91969#0" />
+            <element signature="e#92057#92189#0" />
+            <element signature="e#92556#92575#0" />
+            <element signature="e#92763#92828#0" />
+            <element signature="e#92838#92891#0" />
+            <element signature="e#93034#93239#0" />
+            <element signature="e#93249#93304#0" />
+            <element signature="e#93484#93532#0" />
+            <element signature="e#93766#93988#0" />
+            <element signature="e#94107#95768#0" />
+            <element signature="e#94255#95070#0" />
+            <element signature="e#94429#95070#0" />
+            <element signature="e#94454#94602#0" />
+            <element signature="e#94674#94852#0" />
+            <element signature="e#94732#94837#0" />
+            <element signature="e#95108#95297#0" />
+            <element signature="e#95151#95249#0" />
+            <element signature="e#95200#95249#0" />
+            <element signature="e#95409#95498#0" />
+            <element signature="e#95554#95716#0" />
+            <element signature="e#95604#95701#0" />
+            <element signature="e#95810#95878#0" />
+            <element signature="e#95961#96338#0" />
+            <element signature="e#95961#96306#1" />
+            <element signature="e#96432#98103#0" />
+            <element signature="e#96432#98055#1" />
+            <element signature="e#98203#102598#0" />
+            <element signature="e#98203#102549#1" />
+            <element signature="e#102641#103481#0" />
+            <element signature="e#102681#103332#0" />
+            <element signature="e#102896#102949#0" />
+            <element signature="e#103359#103481#0" />
+            <element signature="e#103567#104723#0" />
+            <element signature="e#103567#104331#1" />
+            <element signature="e#104395#104476#0" />
+            <element signature="e#104803#104927#0" />
+            <element signature="e#104803#104899#1" />
+            <element signature="e#105009#105137#0" />
+            <element signature="e#105009#105107#1" />
+            <element signature="e#105225#106408#0" />
+            <element signature="e#105225#106124#1" />
+            <element signature="e#106211#106408#0" />
+            <element signature="e#106475#107225#0" />
+            <element signature="e#106475#107107#1" />
+            <element signature="e#107292#107744#0" />
+            <element signature="e#107292#107626#1" />
+            <element signature="e#107773#107937#0" />
+            <element signature="e#107773#107911#1" />
+            <element signature="e#108034#108981#0" />
+            <element signature="e#108034#108589#1" />
+            <element signature="e#108725#108796#0" />
+            <element signature="e#108812#108944#0" />
+            <element signature="e#108856#108943#0" />
+            <element signature="e#109012#109762#0" />
+            <element signature="e#109012#109551#1" />
+            <element signature="e#109799#110698#0" />
+            <element signature="e#109799#110437#1" />
+            <element signature="e#110601#110698#0" />
+            <element signature="e#110727#111635#0" />
+            <element signature="e#110727#111299#1" />
+            <element signature="e#111407#111496#0" />
+            <element signature="e#111523#111635#0" />
+            <element signature="e#111667#112437#0" />
+            <element signature="e#111667#112237#1" />
+            <element signature="e#112263#112375#0" />
+            <element signature="e#112471#112698#0" />
+            <element signature="e#112731#113012#0" />
+            <element signature="e#112790#112891#0" />
+            <element signature="e#113068#113229#0" />
+            <element signature="e#113291#113567#0" />
+            <element signature="e#113631#113751#0" />
+            <element signature="e#113810#115560#0" />
+            <element signature="e#113810#114838#1" />
+            <element signature="e#114855#115560#0" />
+            <element signature="e#114869#115282#0" />
+            <element signature="e#115316#115550#0" />
+            <element signature="e#115356#115475#0" />
+            <element signature="e#115619#116056#0" />
+            <element signature="e#115619#115902#1" />
+            <element signature="e#116115#117267#0" />
+            <element signature="e#116115#117208#1" />
+            <element signature="e#117319#117610#0" />
+            <element signature="e#117326#117610#0" />
+            <element signature="e#117673#117849#0" />
+            <element signature="e#117881#119326#0" />
+            <element signature="e#117881#118818#1" />
+            <element signature="e#118828#118895#0" />
+            <element signature="e#119357#120597#0" />
+            <element signature="e#119357#120499#1" />
+            <element signature="e#120661#126275#0" />
+            <element signature="e#120661#126123#1" />
+            <element signature="e#126365#132581#0" />
+            <element signature="e#126365#132368#1" />
+            <element signature="e#132636#134357#0" />
+            <element signature="e#132681#132836#0" />
+            <element signature="e#132737#132836#0" />
+            <element signature="e#133181#133229#0" />
+            <element signature="e#133275#133419#0" />
+            <element signature="e#133275#133309#0" />
+            <element signature="e#133428#133467#0" />
+            <element signature="e#133672#134105#0" />
+            <element signature="e#133714#133938#0" />
+            <element signature="e#133768#133937#0" />
+            <element signature="e#133973#134105#0" />
+            <element signature="e#134027#134104#0" />
+            <element signature="e#134417#136488#0" />
+            <element signature="e#134417#134469#0" />
+            <element signature="e#134598#134778#0" />
+            <element signature="e#134805#134863#0" />
+            <element signature="e#135070#135109#0" />
+            <element signature="e#135889#136170#0" />
+            <element signature="e#135889#135944#0" />
+            <element signature="e#136257#136403#0" />
+            <element signature="e#136540#137582#0" />
+            <element signature="e#136670#136857#0" />
+            <element signature="e#137647#138976#0" />
+            <element signature="e#137647#138018#1" />
+            <element signature="e#138204#138444#0" />
+            <element signature="e#138501#138976#0" />
+            <element signature="e#138684#138976#0" />
+            <element signature="e#139060#139572#0" />
+            <element signature="e#139121#139572#0" />
+            <element signature="e#139211#139249#0" />
+            <element signature="e#139365#139403#0" />
+            <element signature="e#139430#139518#0" />
+            <element signature="e#139607#140220#0" />
+            <element signature="e#139720#140087#0" />
+            <element signature="e#139756#140052#0" />
+            <element signature="e#140119#140220#0" />
+            <element signature="e#140262#145332#0" />
+            <element signature="e#140349#140558#0" />
+            <element signature="e#140686#141265#0" />
+            <element signature="e#141391#142319#0" />
+            <element signature="e#141391#141592#1" />
+            <element signature="e#141639#141808#0" />
+            <element signature="e#141719#141794#0" />
+            <element signature="e#141857#141921#0" />
+            <element signature="e#142363#142388#0" />
+            <element signature="e#142453#142476#0" />
+            <element signature="e#142524#142579#0" />
+            <element signature="e#142636#142664#0" />
+            <element signature="e#142726#143196#0" />
+            <element signature="e#142792#142900#0" />
+            <element signature="e#142991#143122#0" />
+            <element signature="e#143259#144381#0" />
+            <element signature="e#143476#143527#0" />
+            <element signature="e#143685#143800#0" />
+            <element signature="e#143856#143946#0" />
+            <element signature="e#144436#145276#0" />
+            <element signature="e#144655#144956#0" />
+            <element signature="e#144803#144956#0" />
+            <element signature="e#145309#145332#0" />
+            <element signature="e#145396#148792#0" />
+            <element signature="e#145396#145976#1" />
+            <element signature="e#146008#146136#1" />
+            <element signature="e#146274#147177#0" />
+            <element signature="e#146274#146874#1" />
+            <element signature="e#147020#147103#0" />
+            <element signature="e#147202#147761#1" />
+            <element signature="e#147855#147970#0" />
+            <element signature="e#148014#148068#0" />
+            <element signature="e#148115#148155#0" />
+            <element signature="e#148192#148339#0" />
+            <element signature="e#148407#148792#0" />
+            <element signature="e#148407#148617#1" />
+            <element signature="e#148723#148772#0" />
+            <element signature="e#148834#151129#0" />
+            <element signature="e#148927#149402#0" />
+            <element signature="e#149137#149337#0" />
+            <element signature="e#149179#149337#0" />
+            <element signature="e#149448#149478#0" />
+            <element signature="e#149526#149640#0" />
+            <element signature="e#149691#149854#0" />
+            <element signature="e#149730#149816#0" />
+            <element signature="e#149902#149994#0" />
+            <element signature="e#149902#149942#0" />
+            <element signature="e#150059#150236#0" />
+            <element signature="e#150098#150198#0" />
+            <element signature="e#150293#150555#0" />
+            <element signature="e#150361#150395#0" />
+            <element signature="e#150620#150702#0" />
+            <element signature="e#150757#150829#0" />
+            <element signature="e#150892#151129#0" />
+            <element signature="e#150926#151009#0" />
+            <element signature="e#151171#157187#0" />
+            <element signature="e#151273#155218#0" />
+            <element signature="e#151450#151623#0" />
+            <element signature="e#151670#151738#0" />
+            <element signature="e#151763#152124#0" />
+            <element signature="e#152073#152124#0" />
+            <element signature="e#152192#152721#0" />
+            <element signature="e#152248#152549#0" />
+            <element signature="e#152248#152285#0" />
+            <element signature="e#152393#152500#0" />
+            <element signature="e#152613#152694#0" />
+            <element signature="e#152765#152847#0" />
+            <element signature="e#152948#152985#0" />
+            <element signature="e#153398#153444#0" />
+            <element signature="e#153867#154145#0" />
+            <element signature="e#153934#154004#0" />
+            <element signature="e#154039#154092#0" />
+            <element signature="e#154172#155218#0" />
+            <element signature="e#154187#154382#0" />
+            <element signature="e#154429#154590#0" />
+            <element signature="e#154631#154858#0" />
+            <element signature="e#154906#154995#0" />
+            <element signature="e#155057#155125#0" />
+            <element signature="e#155160#155218#0" />
+            <element signature="e#155319#155503#0" />
+            <element signature="e#155560#155740#0" />
+            <element signature="e#155805#156019#0" />
+            <element signature="e#156067#156452#0" />
+            <element signature="e#156067#156101#0" />
+            <element signature="e#156240#156318#0" />
+            <element signature="e#156345#156452#0" />
+            <element signature="e#156515#156871#0" />
+            <element signature="e#156926#157131#0" />
+            <element signature="e#157164#157187#0" />
+            <element signature="e#157222#159286#0" />
+            <element signature="e#157244#157740#0" />
+            <element signature="e#157788#159286#0" />
+            <element signature="e#157833#158135#0" />
+            <element signature="e#158162#158322#0" />
+            <element signature="e#158981#159074#0" />
+            <element signature="e#159338#160990#0" />
+            <element signature="e#159373#160720#0" />
+            <element signature="e#159373#160693#1" />
+            <element signature="e#160766#160990#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/lqq_01/venv/Lib/site-packages/sqlalchemy/schema.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/lqq_01/venv/Lib/site-packages/sqlalchemy/orm/session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="446" selection-start-line="446" selection-end-line="446" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/lqq_01/venv/Lib/site-packages/MySQLdb/connections.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="259" selection-start-line="259" selection-end-line="259" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/lqq_01/venv/Lib/site-packages/MySQLdb/cursors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="201" selection-start-line="201" selection-end-line="201" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/lqq_01/venv/Lib/site-packages/sqlalchemy/engine/default.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="508" selection-start-line="508" selection-end-line="508" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/lqq_01/venv/Lib/encodings/cp1252.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/lqq_01/venv/Lib/site-packages/sqlalchemy/orm/relationships.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2223">
+          <caret line="158" column="29" selection-start-line="158" selection-start-column="16" selection-end-line="158" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/lqq_01/venv/Lib/site-packages/sqlalchemy/orm/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1231">
+          <caret line="115" column="23" selection-start-line="115" selection-start-column="11" selection-end-line="115" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/use_flask_migrate.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="2" selection-start-line="3" selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/lqq_01/venv/Lib/site-packages/flask/globals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/lqq_01/venv/Lib/site-packages/werkzeug/local.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="305" column="28" lean-forward="true" selection-start-line="305" selection-start-column="28" selection-end-line="305" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/lqq_01/venv/Lib/site-packages/flask_sqlalchemy/_compat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/lqq_01/venv/Lib/site-packages/sqlalchemy/interfaces.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2310" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/lqq_01/venv/Lib/site-packages/sqlalchemy/orm/mapper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="1291" column="37" selection-start-line="1291" selection-start-column="37" selection-end-line="1291" selection-end-column="37" />
+          <folding>
+            <element signature="n#!!doc" />
+            <element signature="e#234#549#1" />
+            <element signature="e#1314#1370#0" />
+            <element signature="e#3913#29599#0" />
+            <element signature="e#3913#25021#1" />
+            <element signature="e#25275#25507#0" />
+            <element signature="e#25364#25506#0" />
+            <element signature="e#25674#25750#0" />
+            <element signature="e#27465#27775#0" />
+            <element signature="e#27515#27761#0" />
+            <element signature="e#27888#27954#0" />
+            <element signature="e#28141#28206#0" />
+            <element signature="e#28831#28875#0" />
+            <element signature="e#29059#29543#0" />
+            <element signature="e#29605#29661#0" />
+            <element signature="e#29839#29925#0" />
+            <element signature="e#29839#29905#1" />
+            <element signature="e#29971#30073#0" />
+            <element signature="e#29971#30046#1" />
+            <element signature="e#30102#30819#1" />
+            <element signature="e#30849#31481#1" />
+            <element signature="e#31507#31729#1" />
+            <element signature="e#31757#32012#1" />
+            <element signature="e#32764#33685#1" />
+            <element signature="e#33709#33895#1" />
+            <element signature="e#33926#34179#1" />
+            <element signature="e#34203#34496#1" />
+            <element signature="e#34525#34821#1" />
+            <element signature="e#34853#35278#1" />
+            <element signature="e#35311#35872#1" />
+            <element signature="e#35910#36330#1" />
+            <element signature="e#36359#36795#1" />
+            <element signature="e#37509#37737#1" />
+            <element signature="e#37869#37905#0" />
+            <element signature="e#38397#38561#0" />
+            <element signature="e#38640#38912#0" />
+            <element signature="e#38761#38858#0" />
+            <element signature="e#39242#40539#0" />
+            <element signature="e#39280#39501#0" />
+            <element signature="e#39399#39501#0" />
+            <element signature="e#39544#40539#0" />
+            <element signature="e#39603#40061#0" />
+            <element signature="e#39603#39655#0" />
+            <element signature="e#40887#41016#0" />
+            <element signature="e#41174#41670#0" />
+            <element signature="e#41205#41533#0" />
+            <element signature="e#41557#41651#0" />
+            <element signature="e#42399#42974#0" />
+            <element signature="e#42473#42903#0" />
+            <element signature="e#42508#42695#0" />
+            <element signature="e#42723#42880#0" />
+            <element signature="e#43048#43194#0" />
+            <element signature="e#43093#43193#0" />
+            <element signature="e#43455#43591#0" />
+            <element signature="e#43952#44073#0" />
+            <element signature="e#44138#45419#0" />
+            <element signature="e#44284#44515#0" />
+            <element signature="e#44770#45080#0" />
+            <element signature="e#44820#45066#0" />
+            <element signature="e#45229#45350#0" />
+            <element signature="e#45254#45349#0" />
+            <element signature="e#45483#45834#0" />
+            <element signature="e#45654#45834#0" />
+            <element signature="e#45720#45802#0" />
+            <element signature="e#45886#47065#0" />
+            <element signature="e#45886#46065#1" />
+            <element signature="e#46388#46478#0" />
+            <element signature="e#46850#47065#0" />
+            <element signature="e#47126#47211#0" />
+            <element signature="e#47272#47699#0" />
+            <element signature="e#47302#47500#0" />
+            <element signature="e#47407#47498#0" />
+            <element signature="e#47613#47699#0" />
+            <element signature="e#47745#48106#0" />
+            <element signature="e#47775#47915#0" />
+            <element signature="e#47822#47913#0" />
+            <element signature="e#48028#48106#0" />
+            <element signature="e#48164#51840#0" />
+            <element signature="e#48164#48581#1" />
+            <element signature="e#48684#49142#0" />
+            <element signature="e#48741#48974#0" />
+            <element signature="e#48795#48959#0" />
+            <element signature="e#49188#49809#0" />
+            <element signature="e#49275#49599#0" />
+            <element signature="e#49323#49564#0" />
+            <element signature="e#49612#49619#0" />
+            <element signature="e#49858#49925#0" />
+            <element signature="e#50328#50379#0" />
+            <element signature="e#50699#51796#0" />
+            <element signature="e#50778#50912#0" />
+            <element signature="e#50984#51796#0" />
+            <element signature="e#51048#51152#0" />
+            <element signature="e#51232#51796#0" />
+            <element signature="e#51362#51796#0" />
+            <element signature="e#51418#51643#0" />
+            <element signature="e#51484#51595#0" />
+            <element signature="e#51896#51995#0" />
+            <element signature="e#52028#52432#0" />
+            <element signature="e#52635#52709#0" />
+            <element signature="e#52996#53462#0" />
+            <element signature="e#53068#53337#0" />
+            <element signature="e#53068#53127#0" />
+            <element signature="e#53472#53528#0" />
+            <element signature="e#53611#53820#0" />
+            <element signature="e#53664#53820#0" />
+            <element signature="e#54029#54225#0" />
+            <element signature="e#54073#54168#0" />
+            <element signature="e#54360#54584#0" />
+            <element signature="e#54370#54530#0" />
+            <element signature="e#54717#54894#0" />
+            <element signature="e#54717#54770#0" />
+            <element signature="e#54921#55875#0" />
+            <element signature="e#54921#54980#0" />
+            <element signature="e#55091#55303#0" />
+            <element signature="e#55150#55250#0" />
+            <element signature="e#55338#55487#0" />
+            <element signature="e#55543#55751#0" />
+            <element signature="e#55591#55690#0" />
+            <element signature="e#55885#55953#0" />
+            <element signature="e#56077#56325#0" />
+            <element signature="e#56373#58411#0" />
+            <element signature="e#56605#56662#0" />
+            <element signature="e#56908#57014#0" />
+            <element signature="e#57114#57404#0" />
+            <element signature="e#57177#57404#0" />
+            <element signature="e#57414#57470#0" />
+            <element signature="e#57598#58411#0" />
+            <element signature="e#57953#58000#0" />
+            <element signature="e#58106#58214#0" />
+            <element signature="e#58478#66553#0" />
+            <element signature="e#58478#58913#1" />
+            <element signature="e#58994#63982#0" />
+            <element signature="e#59092#59544#0" />
+            <element signature="e#59092#59137#0" />
+            <element signature="e#59333#59544#0" />
+            <element signature="e#59385#59521#0" />
+            <element signature="e#59624#59780#0" />
+            <element signature="e#59624#59675#0" />
+            <element signature="e#59863#60331#0" />
+            <element signature="e#59863#59909#0" />
+            <element signature="e#60094#60288#0" />
+            <element signature="e#60146#60287#0" />
+            <element signature="e#60413#60730#0" />
+            <element signature="e#60413#60471#0" />
+            <element signature="e#60579#60712#0" />
+            <element signature="e#60765#63781#0" />
+            <element signature="e#60765#60815#0" />
+            <element signature="e#61248#62550#0" />
+            <element signature="e#61248#61288#0" />
+            <element signature="e#62270#62550#0" />
+            <element signature="e#62332#62503#0" />
+            <element signature="e#62593#63101#0" />
+            <element signature="e#62593#62645#0" />
+            <element signature="e#63194#63461#0" />
+            <element signature="e#63273#63461#0" />
+            <element signature="e#63335#63422#0" />
+            <element signature="e#63504#63623#0" />
+            <element signature="e#63795#63856#0" />
+            <element signature="e#64010#65473#0" />
+            <element signature="e#64010#64038#0" />
+            <element signature="e#64153#65473#0" />
+            <element signature="e#64153#64196#0" />
+            <element signature="e#64511#65473#0" />
+            <element signature="e#64674#64820#0" />
+            <element signature="e#64841#64899#0" />
+            <element signature="e#65133#65358#0" />
+            <element signature="e#65506#66489#0" />
+            <element signature="e#65560#65754#0" />
+            <element signature="e#65842#66318#0" />
+            <element signature="e#66019#66318#0" />
+            <element signature="e#66062#66228#0" />
+            <element signature="e#66673#66809#0" />
+            <element signature="e#66904#67204#0" />
+            <element signature="e#66987#67177#0" />
+            <element signature="e#67081#67177#0" />
+            <element signature="e#67274#67312#0" />
+            <element signature="e#67380#68480#0" />
+            <element signature="e#67528#68480#0" />
+            <element signature="e#67528#67587#0" />
+            <element signature="e#68323#68480#0" />
+            <element signature="e#68563#72693#0" />
+            <element signature="e#68810#71126#0" />
+            <element signature="e#68885#68936#0" />
+            <element signature="e#69132#69603#0" />
+            <element signature="e#69224#69603#0" />
+            <element signature="e#69346#69568#0" />
+            <element signature="e#69617#69672#0" />
+            <element signature="e#69743#70103#0" />
+            <element signature="e#69782#69829#0" />
+            <element signature="e#70139#70501#0" />
+            <element signature="e#70139#70188#0" />
+            <element signature="e#70515#70578#0" />
+            <element signature="e#70784#70934#0" />
+            <element signature="e#71046#71126#0" />
+            <element signature="e#71335#71622#0" />
+            <element signature="e#71433#71585#0" />
+            <element signature="e#71846#71933#0" />
+            <element signature="e#71966#72319#0" />
+            <element signature="e#71976#72092#0" />
+            <element signature="e#72123#72204#0" />
+            <element signature="e#72568#72624#0" />
+            <element signature="e#72751#76497#0" />
+            <element signature="e#72852#72899#0" />
+            <element signature="e#73070#73199#0" />
+            <element signature="e#73312#74497#0" />
+            <element signature="e#73676#74144#0" />
+            <element signature="e#73735#73964#0" />
+            <element signature="e#74158#74213#0" />
+            <element signature="e#74372#74464#0" />
+            <element signature="e#74635#75810#0" />
+            <element signature="e#74700#75749#0" />
+            <element signature="e#74798#75708#0" />
+            <element signature="e#74907#75193#0" />
+            <element signature="e#74907#74956#0" />
+            <element signature="e#75320#75708#0" />
+            <element signature="e#75376#75690#0" />
+            <element signature="e#75837#76497#0" />
+            <element signature="e#75881#76448#0" />
+            <element signature="e#76549#77254#0" />
+            <element signature="e#76549#76776#1" />
+            <element signature="e#76939#77163#0" />
+            <element signature="e#77314#77510#0" />
+            <element signature="e#77314#77414#1" />
+            <element signature="e#77559#77994#0" />
+            <element signature="e#77559#77886#1" />
+            <element signature="e#78040#78143#0" />
+            <element signature="e#78192#78460#0" />
+            <element signature="e#78502#78582#0" />
+            <element signature="e#78630#78711#0" />
+            <element signature="e#78745#78822#0" />
+            <element signature="e#78855#79075#0" />
+            <element signature="e#78895#79065#0" />
+            <element signature="e#79118#79717#0" />
+            <element signature="e#79200#79608#0" />
+            <element signature="e#79258#79608#0" />
+            <element signature="e#79760#79785#0" />
+            <element signature="e#79853#80197#0" />
+            <element signature="e#80098#80197#0" />
+            <element signature="e#80253#80406#0" />
+            <element signature="e#80464#80625#0" />
+            <element signature="e#80687#81852#0" />
+            <element signature="e#80687#80940#1" />
+            <element signature="e#81050#81557#0" />
+            <element signature="e#81123#81480#0" />
+            <element signature="e#81203#81327#0" />
+            <element signature="e#81645#81829#0" />
+            <element signature="e#81922#82800#0" />
+            <element signature="e#81922#82098#1" />
+            <element signature="e#82174#82775#0" />
+            <element signature="e#82256#82430#0" />
+            <element signature="e#82310#82429#0" />
+            <element signature="e#82478#82775#0" />
+            <element signature="e#82512#82617#0" />
+            <element signature="e#82660#82775#0" />
+            <element signature="e#82884#83162#0" />
+            <element signature="e#83002#83124#0" />
+            <element signature="e#83050#83123#0" />
+            <element signature="e#83248#83426#0" />
+            <element signature="e#83515#83842#0" />
+            <element signature="e#83723#83842#0" />
+            <element signature="e#83905#84002#1" />
+            <element signature="e#84091#84367#0" />
+            <element signature="e#84116#84357#0" />
+            <element signature="e#84134#84281#0" />
+            <element signature="e#84188#84263#0" />
+            <element signature="e#84448#84826#0" />
+            <element signature="e#84473#84816#0" />
+            <element signature="e#84491#84740#0" />
+            <element signature="e#84545#84739#0" />
+            <element signature="e#84902#85175#0" />
+            <element signature="e#84927#85165#0" />
+            <element signature="e#84945#85089#0" />
+            <element signature="e#84994#85071#0" />
+            <element signature="e#85253#85435#0" />
+            <element signature="e#85278#85425#0" />
+            <element signature="e#85296#85354#0" />
+            <element signature="e#85518#85724#0" />
+            <element signature="e#85543#85714#0" />
+            <element signature="e#85561#85643#0" />
+            <element signature="e#85805#86071#0" />
+            <element signature="e#85830#86061#0" />
+            <element signature="e#85848#85985#0" />
+            <element signature="e#85881#85984#0" />
+            <element signature="e#86170#86611#0" />
+            <element signature="e#86257#86588#0" />
+            <element signature="e#86293#86588#0" />
+            <element signature="e#86701#86968#0" />
+            <element signature="e#86726#86958#0" />
+            <element signature="e#86744#86882#0" />
+            <element signature="e#86777#86881#0" />
+            <element signature="e#87018#87359#0" />
+            <element signature="e#87018#87310#1" />
+            <element signature="e#87484#88020#0" />
+            <element signature="e#87522#87672#0" />
+            <element signature="e#87897#88020#0" />
+            <element signature="e#87904#88020#0" />
+            <element signature="e#88104#88198#0" />
+            <element signature="e#88269#89227#0" />
+            <element signature="e#88479#88536#0" />
+            <element signature="e#88563#89227#0" />
+            <element signature="e#88563#88622#0" />
+            <element signature="e#88837#88959#0" />
+            <element signature="e#88992#89227#0" />
+            <element signature="e#89293#90788#0" />
+            <element signature="e#89293#90671#1" />
+            <element signature="e#90868#92844#0" />
+            <element signature="e#90868#92742#1" />
+            <element signature="e#92913#93225#0" />
+            <element signature="e#92913#93158#1" />
+            <element signature="e#93298#93608#0" />
+            <element signature="e#93298#93542#1" />
+            <element signature="e#93682#94580#0" />
+            <element signature="e#93682#94508#1" />
+            <element signature="e#94651#94967#0" />
+            <element signature="e#94651#94898#1" />
+            <element signature="e#95018#95229#0" />
+            <element signature="e#95144#95218#0" />
+            <element signature="e#95301#95697#0" />
+            <element signature="e#95301#95469#1" />
+            <element signature="e#95487#95601#0" />
+            <element signature="e#95617#95697#0" />
+            <element signature="e#95777#97222#0" />
+            <element signature="e#95777#96440#1" />
+            <element signature="e#96524#96954#0" />
+            <element signature="e#96576#96954#0" />
+            <element signature="e#97028#97199#0" />
+            <element signature="e#97085#97199#0" />
+            <element signature="e#97276#97490#0" />
+            <element signature="e#97296#97424#0" />
+            <element signature="e#97567#98957#0" />
+            <element signature="e#97567#97819#1" />
+            <element signature="e#97829#97883#0" />
+            <element signature="e#97964#98166#0" />
+            <element signature="e#98193#98359#0" />
+            <element signature="e#98559#98630#0" />
+            <element signature="e#98868#98935#0" />
+            <element signature="e#99003#99151#0" />
+            <element signature="e#99208#99401#0" />
+            <element signature="e#99437#99609#0" />
+            <element signature="e#99650#99722#0" />
+            <element signature="e#99688#99722#0" />
+            <element signature="e#99803#100245#0" />
+            <element signature="e#99803#100000#1" />
+            <element signature="e#100089#100199#0" />
+            <element signature="e#100291#100667#0" />
+            <element signature="e#100291#100620#1" />
+            <element signature="e#100707#100838#0" />
+            <element signature="e#100897#100941#0" />
+            <element signature="e#101013#101255#0" />
+            <element signature="e#101160#101217#0" />
+            <element signature="e#101342#102026#0" />
+            <element signature="e#101342#101802#1" />
+            <element signature="e#101934#102026#0" />
+            <element signature="e#102115#102370#0" />
+            <element signature="e#102115#102298#1" />
+            <element signature="e#102432#103022#0" />
+            <element signature="e#102432#102894#1" />
+            <element signature="e#103137#103389#0" />
+            <element signature="e#103203#103389#0" />
+            <element signature="e#103231#103366#0" />
+            <element signature="e#103450#103963#0" />
+            <element signature="e#103450#103783#1" />
+            <element signature="e#104043#104107#0" />
+            <element signature="e#104181#104316#0" />
+            <element signature="e#104404#104538#0" />
+            <element signature="e#104620#104668#0" />
+            <element signature="e#104811#104927#0" />
+            <element signature="e#105017#105132#0" />
+            <element signature="e#105212#105317#0" />
+            <element signature="e#105385#105592#0" />
+            <element signature="e#105746#105892#0" />
+            <element signature="e#105966#108703#0" />
+            <element signature="e#105966#106336#1" />
+            <element signature="e#106407#106535#0" />
+            <element signature="e#106682#106686#0" />
+            <element signature="e#106734#107812#0" />
+            <element signature="e#106928#107335#0" />
+            <element signature="e#107399#107812#0" />
+            <element signature="e#107862#108453#0" />
+            <element signature="e#107958#108453#0" />
+            <element signature="e#108241#108453#0" />
+            <element signature="e#108764#109092#0" />
+            <element signature="e#108797#109092#0" />
+            <element signature="e#108870#109092#0" />
+            <element signature="e#109174#110028#0" />
+            <element signature="e#109210#109445#0" />
+            <element signature="e#109380#109445#0" />
+            <element signature="e#109472#110007#0" />
+            <element signature="e#109734#110007#0" />
+            <element signature="e#109844#110007#0" />
+            <element signature="e#110207#112261#0" />
+            <element signature="e#110207#110322#1" />
+            <element signature="e#110671#111378#0" />
+            <element signature="e#110733#111009#0" />
+            <element signature="e#110733#110794#0" />
+            <element signature="e#111044#111378#0" />
+            <element signature="e#111044#111100#0" />
+            <element signature="e#111575#111867#0" />
+            <element signature="e#111894#112045#0" />
+            <element signature="e#112350#112389#0" />
+            <element signature="e#112459#114618#0" />
+            <element signature="e#112459#113278#1" />
+            <element signature="e#113415#113507#0" />
+            <element signature="e#113417#113505#0" />
+            <element signature="e#113548#114618#0" />
+            <element signature="e#113657#113698#0" />
+            <element signature="e#113749#114092#0" />
+            <element signature="e#114144#114618#0" />
+            <element signature="e#114144#114232#0" />
+            <element signature="e#114276#114364#0" />
+            <element signature="e#114446#114578#0" />
+            <element signature="e#114694#114741#0" />
+            <element signature="e#114816#116611#0" />
+            <element signature="e#114911#114988#0" />
+            <element signature="e#115088#115292#0" />
+            <element signature="e#115152#115292#0" />
+            <element signature="e#115178#115291#0" />
+            <element signature="e#115328#116304#0" />
+            <element signature="e#115328#115371#0" />
+            <element signature="e#115906#116279#0" />
+            <element signature="e#116041#116208#0" />
+            <element signature="e#116658#116836#0" />
+            <element signature="e#116763#116836#0" />
+            <element signature="e#116907#117579#0" />
+            <element signature="e#117113#117556#0" />
+            <element signature="e#117194#117556#0" />
+            <element signature="e#117363#117455#0" />
+            <element signature="e#117611#121074#0" />
+            <element signature="e#117611#119151#1" />
+            <element signature="e#119249#120968#0" />
+            <element signature="e#119385#120912#0" />
+            <element signature="e#119556#119594#0" />
+            <element signature="e#119829#120871#0" />
+            <element signature="e#119897#120339#0" />
+            <element signature="e#119953#120182#0" />
+            <element signature="e#120402#120871#0" />
+            <element signature="e#120431#120630#0" />
+            <element signature="e#120693#120871#0" />
+            <element signature="e#121104#121972#0" />
+            <element signature="e#121104#121923#1" />
+            <element signature="e#122008#123906#0" />
+            <element signature="e#122008#123560#1" />
+            <element signature="e#123699#123890#0" />
+            <element signature="e#123764#123872#0" />
+            <element signature="e#123945#124102#0" />
+            <element signature="e#124149#124484#0" />
+            <element signature="e#124149#124331#1" />
+            <element signature="e#124429#124484#0" />
+            <element signature="e#124532#125014#0" />
+            <element signature="e#124532#124730#1" />
+            <element signature="e#124834#125014#0" />
+            <element signature="e#125049#125660#0" />
+            <element signature="e#125176#125196#0" />
+            <element signature="e#125241#125660#0" />
+            <element signature="e#125308#125523#0" />
+            <element signature="e#125359#125448#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/lqq_01/venv/Lib/site-packages/sqlalchemy/sql/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="122" column="27" selection-start-line="122" selection-start-column="20" selection-end-line="122" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smallest_flask_sqlalchemy_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/lqq_01/venv/Lib/site-packages/flask_sqlalchemy/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="671" column="70" lean-forward="true" selection-start-line="671" selection-start-column="70" selection-end-line="671" selection-end-column="70" />
+          <folding>
+            <element signature="e#242#280#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/lqq_01/venv/Lib/site-packages/flask_sqlalchemy/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="126" column="56" selection-start-line="126" selection-start-column="56" selection-end-line="126" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/lqq_01/venv/Lib/site-packages/sqlalchemy/ext/declarative/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="292" column="26" lean-forward="true" selection-start-line="292" selection-start-column="26" selection-end-line="292" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/lqq_01/venv/Lib/site-packages/sqlalchemy/ext/declarative/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="64" column="13" lean-forward="true" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/lqq_01/venv/Lib/site-packages/sqlalchemy/engine/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10159">
+          <caret line="1736" column="6" selection-start-line="1736" selection-start-column="6" selection-end-line="1736" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/lqq_01/venv/Lib/site-packages/sqlalchemy/engine/interfaces.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="780" column="8" selection-start-line="780" selection-start-column="8" selection-end-line="780" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/lqq_01/venv/Lib/site-packages/sqlalchemy/dialects/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1210">
+          <caret line="55" column="37" lean-forward="true" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/lqq_01/venv/Lib/site-packages/sqlalchemy/engine/strategies.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/lqq_01/venv/Lib/site-packages/sqlalchemy/sql/elements.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5743">
+          <caret line="3645" column="6" selection-start-line="3645" selection-start-column="6" selection-end-line="3645" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/string.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="23" column="15" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/lqq_01/venv/Lib/site-packages/sqlalchemy/engine/url.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="202" column="4" selection-start-line="202" selection-start-column="4" selection-end-line="202" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/lqq_01/venv/Lib/site-packages/sqlalchemy/sql/type_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-27877">
+          <caret line="126" column="29" lean-forward="true" selection-start-line="126" selection-start-column="29" selection-end-line="126" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/lqq_01/venv/Lib/site-packages/sqlalchemy/testing/schema.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1323" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/lqq_01/venv/Lib/site-packages/sqlalchemy/testing/mock.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/lqq_01/venv/Lib/site-packages/sqlalchemy/sql/sqltypes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="752" column="29" selection-start-line="752" selection-start-column="21" selection-end-line="752" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/lqq_01/venv/Lib/site-packages/sqlalchemy/sql/schema.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="1097" column="23" selection-start-line="1097" selection-start-column="15" selection-end-line="1097" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/lqq_01/venv/Lib/site-packages/sqlalchemy/sql/functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="604" column="12" selection-start-line="604" selection-start-column="6" selection-end-line="604" selection-end-column="12" />
+          <folding>
+            <element signature="n#!!doc" />
+            <element signature="e#237#297#1" />
+            <element signature="e#856#1167#0" />
+            <element signature="e#856#1113#1" />
+            <element signature="e#1236#8422#0" />
+            <element signature="e#1236#1558#1" />
+            <element signature="e#1635#1901#0" />
+            <element signature="e#1982#2044#0" />
+            <element signature="e#2091#2711#0" />
+            <element signature="e#2091#2661#1" />
+            <element signature="e#2772#2943#0" />
+            <element signature="e#2772#2903#1" />
+            <element signature="e#3031#3675#0" />
+            <element signature="e#3031#3507#1" />
+            <element signature="e#3724#4151#0" />
+            <element signature="e#3724#4107#1" />
+            <element signature="e#4195#4785#0" />
+            <element signature="e#4195#4687#1" />
+            <element signature="e#4838#4871#0" />
+            <element signature="e#4919#4943#0" />
+            <element signature="e#5004#5128#0" />
+            <element signature="e#5185#5491#0" />
+            <element signature="e#5185#5470#1" />
+            <element signature="e#5545#6449#0" />
+            <element signature="e#5545#6415#1" />
+            <element signature="e#6481#6812#0" />
+            <element signature="e#6481#6669#1" />
+            <element signature="e#6844#7268#0" />
+            <element signature="e#6844#7220#1" />
+            <element signature="e#7301#7691#0" />
+            <element signature="e#7301#7652#1" />
+            <element signature="e#7755#7931#0" />
+            <element signature="e#7981#8422#0" />
+            <element signature="e#7981#8040#0" />
+            <element signature="e#8463#9612#0" />
+            <element signature="e#8570#8612#0" />
+            <element signature="e#8655#9031#0" />
+            <element signature="e#8739#8858#0" />
+            <element signature="e#9079#9612#0" />
+            <element signature="e#9397#9503#0" />
+            <element signature="e#9643#12613#1" />
+            <element signature="e#12697#13846#0" />
+            <element signature="e#12697#13048#1" />
+            <element signature="e#13137#13543#0" />
+            <element signature="e#13137#13293#1" />
+            <element signature="e#13607#13846#0" />
+            <element signature="e#13888#14416#0" />
+            <element signature="e#13940#14416#0" />
+            <element signature="e#13996#14349#0" />
+            <element signature="e#14491#17691#0" />
+            <element signature="e#14491#17130#1" />
+            <element signature="e#17210#17691#0" />
+            <element signature="e#17804#18403#0" />
+            <element signature="e#17804#18067#1" />
+            <element signature="e#18166#18341#0" />
+            <element signature="e#18394#18403#0" />
+            <element signature="e#18447#18525#0" />
+            <element signature="e#18485#18525#0" />
+            <element signature="e#18575#18913#0" />
+            <element signature="e#18697#18913#0" />
+            <element signature="e#18956#18960#0" />
+            <element signature="e#18998#19002#0" />
+            <element signature="e#19040#19044#0" />
+            <element signature="e#19082#19086#0" />
+            <element signature="e#19121#19145#0" />
+            <element signature="e#19183#19205#0" />
+            <element signature="e#19248#19365#0" />
+            <element signature="e#19320#19365#0" />
+            <element signature="e#19444#19745#0" />
+            <element signature="e#19444#19531#1" />
+            <element signature="e#19620#19745#0" />
+            <element signature="e#19786#19806#0" />
+            <element signature="e#19847#19867#0" />
+            <element signature="e#19913#19937#0" />
+            <element signature="e#19978#20000#0" />
+            <element signature="e#20038#20062#0" />
+            <element signature="e#20105#20129#0" />
+            <element signature="e#20170#20192#0" />
+            <element signature="e#20228#20252#0" />
+            <element signature="e#20285#20307#0" />
+            <element signature="e#20348#21266#0" />
+            <element signature="e#20348#20772#1" />
+            <element signature="e#20850#21266#0" />
+            <element signature="e#20942#21171#0" />
+            <element signature="e#21311#21864#0" />
+            <element signature="e#21311#21490#1" />
+            <element signature="e#21583#21864#0" />
+            <element signature="e#21898#22202#0" />
+            <element signature="e#21898#22202#2" />
+            <element signature="e#22247#22695#0" />
+            <element signature="e#22247#22660#1" />
+            <element signature="e#22740#23188#0" />
+            <element signature="e#22740#23153#1" />
+            <element signature="e#23224#23549#0" />
+            <element signature="e#23224#23519#1" />
+            <element signature="e#23591#23922#0" />
+            <element signature="e#23591#23892#1" />
+            <element signature="e#23966#24299#0" />
+            <element signature="e#23966#24269#1" />
+            <element signature="e#24340#24670#0" />
+            <element signature="e#24340#24640#1" />
+            <element signature="e#24706#25047#0" />
+            <element signature="e#24706#25047#2" />
+            <element signature="e#25085#25426#0" />
+            <element signature="e#25085#25426#2" />
+            <element signature="e#25471#26283#0" />
+            <element signature="e#25471#26283#2" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/lqq_01/venv/Lib/site-packages/sqlalchemy/engine/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1047">
+          <caret line="375" column="23" selection-start-line="375" selection-start-column="11" selection-end-line="375" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/lqq_01/venv/Lib/site-packages/sqlalchemy/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/lqq_01/venv/Lib/site-packages/sqlalchemy/sql/expression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-680">
+          <caret line="106" column="6" selection-start-line="106" selection-end-line="106" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="91" column="15" lean-forward="true" selection-start-line="91" selection-start-column="15" selection-end-line="91" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_sqlalchemy_without_flask/db_model_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_sqlalchemy_without_flask/db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

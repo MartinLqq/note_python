@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="col-xs-9">
+    <table class="table table-bordered">
+      <tr >
+          <th width="400">Phy_cpu</th>
+          <th>{{ Phy_cpu }}</th>
+      </tr>
+        <tr>
+          <th>Log_cpu</th>
+          <th>{{ Log_cpu }}</th>
+      </tr>
+        <tr>
+          <th>user</th>
+          <th>{{ user }}</th>
+      </tr>
+        <tr>
+          <th>system</th>
+          <th>{{ system }}</th>
+      </tr>
+    </table>
+    </div>
+{% endblock %}

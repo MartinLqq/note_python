@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3b1ed46b-badb-4f9d-bc8e-089bd285336b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../../Links.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Links.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/01_python.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/02_网络.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/03_数据库.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/04_python_web.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/05_算法与数据结构.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/06_其他.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/07_前端.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode/01_two_sum.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode/02_add_two_numbers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode/03_longest_substr_without_repeat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode/LeetCode.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode/MySQL_力扣题.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode/common.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/java/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/java/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/java/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/java/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/java/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/java/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/java/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/java/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/java/src/main/java/name/qidong/leetcode/AddTwoNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/java/src/main/java/name/qidong/leetcode/LongestPalindromicSubstring.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/java/src/main/java/name/qidong/leetcode/LongestSubstringWithoutRepeatingCharacters.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/java/src/main/java/name/qidong/leetcode/MedianOfTwoSortedArrays.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/java/src/main/java/name/qidong/leetcode/PalindromeNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/java/src/main/java/name/qidong/leetcode/RemoveElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/java/src/main/java/name/qidong/leetcode/ReverseInteger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/java/src/main/java/name/qidong/leetcode/StringToIntegerAtoi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/java/src/main/java/name/qidong/leetcode/TwoSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/java/src/main/java/name/qidong/leetcode/ZigZagConversion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/java/src/test/java/name/qidong/leetcode/test/AddTwoNumbersTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/java/src/test/java/name/qidong/leetcode/test/LongestPalindromicSubstringTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/java/src/test/java/name/qidong/leetcode/test/LongestSubstringWithoutRepeatingCharactersTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/java/src/test/java/name/qidong/leetcode/test/MedianOfTwoSortedArraysTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/java/src/test/java/name/qidong/leetcode/test/PalindromeNumberTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/java/src/test/java/name/qidong/leetcode/test/RemoveElementTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/java/src/test/java/name/qidong/leetcode/test/ReverseIntegerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/java/src/test/java/name/qidong/leetcode/test/StringToIntegerAtoiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/java/src/test/java/name/qidong/leetcode/test/TwoSumTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/java/src/test/java/name/qidong/leetcode/test/ZigZagConversionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/java/src/test/java/name/qidong/leetcode/test/util/String2IntegerArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/java/src/test/resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/javascript/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/javascript/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/javascript/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/javascript/babel.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/javascript/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/javascript/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/javascript/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/javascript/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/javascript/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/javascript/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/javascript/src/leetcode/TwoSum.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/javascript/src/leetcode/addTwoNumbers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/javascript/src/leetcode/findMedianSortedArrays.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/javascript/src/leetcode/lengthOfLongestSubstring.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/javascript/src/leetcode/longestPalindrome.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/javascript/src/leetcode/maxArea.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/javascript/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/javascript/tests/unit/.eslintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/javascript/tests/unit/addTwoNumbers.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/javascript/tests/unit/cases" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/javascript/tests/unit/example.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/javascript/tests/unit/findMedianSortedArrays.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/javascript/tests/unit/lengthOfLongestSubstring.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/javascript/tests/unit/longestPalindrome.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/javascript/tests/unit/maxArea.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/javascript/tests/unit/twoSum.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/javascript/tests/unit/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/javascript/vue.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/javascript/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/python/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/python/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/python/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/python/setup.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/python/setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/python/src/leetcode/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/python/src/leetcode/_meta.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/python/src/leetcode/add_two_numbers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/python/src/leetcode/container_with_most_water.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/python/src/leetcode/kth_largest_element_in_an_array.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/python/src/leetcode/longest_palindromic_substring.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/python/src/leetcode/longest_substring_without_repeating_characters.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/python/src/leetcode/median_of_two_sorted_arrays.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/python/src/leetcode/merge_intervals.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/python/src/leetcode/next_permutation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/python/src/leetcode/palindrome_number.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/python/src/leetcode/regular_expression_matching.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/python/src/leetcode/remove_element.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/python/src/leetcode/reverse_integer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/python/src/leetcode/reverse_words_in_a_string.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/python/src/leetcode/rotate_image.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/python/src/leetcode/spiral_matrix_iii.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/python/src/leetcode/string_to_integer_atoi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/python/src/leetcode/two_sum.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/python/src/leetcode/uncommon_words_from_two_sentences.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/python/src/leetcode/wiggle_sort_ii.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/python/src/leetcode/zigzag_conversion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/python/tests/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/python/tests/add_two_numbers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/python/tests/cases" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/python/tests/container_with_most_water.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/python/tests/kth_largest_element_in_an_array.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/python/tests/longest_palindromic_substring.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/python/tests/longest_substring_without_repeating_characters.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/python/tests/median_of_two_sorted_arrays.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/python/tests/merge_intervals.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/python/tests/meta.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/python/tests/next_permutation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/python/tests/palindrome_number.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/python/tests/regular_expression_matching.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/python/tests/remove_element.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/python/tests/reverse_integer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/python/tests/reverse_words_in_a_string.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/python/tests/rotate_image.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/python/tests/spiral_matrix_iii.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/python/tests/string_to_integer_atoi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/python/tests/two_sum.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/python/tests/uncommon_words_from_two_sentences.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/python/tests/wiggle_sort_ii.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/python/tests/zigzag_conversion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/test/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/test/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/test/cases/add_two_numbers.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/test/cases/container_with_most_water.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/test/cases/kth_largest_element_in_an_array.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/test/cases/longest_palindromic_substring.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/test/cases/longest_substring_without_repeating_characters.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/test/cases/median_of_two_sorted_arrays.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/test/cases/merge_intervals.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/test/cases/next_permutation.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/test/cases/palindrome_number.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/test/cases/regular_expression_matching.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/test/cases/remove_element.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/test/cases/reverse_integer.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/test/cases/reverse_words_in_a_string.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/test/cases/rotate_image.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/test/cases/spiral_matrix_iii.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/test/cases/string_to_integer_atoi.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/test/cases/two_sum.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/test/cases/uncommon_words_from_two_sentences.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/test/cases/wiggle_sort_ii.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/test/cases/zigzag_conversion.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/test/generators/add_two_numbers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/test/generators/container_with_most_water.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/test/generators/kth_largest_element_in_an_array.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/test/generators/longest_palindromic_substring.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/test/generators/longest_substring_without_repeating_characters.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/test/generators/median_of_two_sorted_arrays.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/test/generators/merge_intervals.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/test/generators/next_permutation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/test/generators/palindrome_number.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/test/generators/regular_expression_matching.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/test/generators/remove_element.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/test/generators/reverse_integer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/test/generators/reverse_words_in_a_string.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/test/generators/rotate_image.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/test/generators/spiral_matrix_iii.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/test/generators/string_to_integer_atoi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/test/generators/two_sum.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/test/generators/uncommon_words_from_two_sentences.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/test/generators/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/test/generators/wiggle_sort_ii.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/LeetCode_yanqd/test/generators/zigzag_conversion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/SQL面试题.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/links.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/面试提问.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../python_project/django/django_extentions.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../python_project/django/django_extentions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../log.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../清单.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../清单.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../简单博客建站计划.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../简单博客建站计划.md" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/code$log_1.coverage" NAME="log_1 Coverage Results" MODIFIED="1589953341514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/code$log2_dictConfig.coverage" NAME="log2_dictConfig Coverage Results" MODIFIED="1589969052063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/code$log_tests.coverage" NAME="log_tests Coverage Results" MODIFIED="1589949792267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/code$log1_logger.coverage" NAME="log1_logger Coverage Results" MODIFIED="1589954479043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-248429393">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="log" value="73" />
+          <entry key="py" value="28" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="73" />
+          <entry key="Python" value="28" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="22" />
+          <entry key="py" value="4114" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="22" />
+          <entry key="Python" value="4114" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="code" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>size</find>
+      <find>filter</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/test.log" />
+        <option value="$PROJECT_DIR$/log_tests.py" />
+        <option value="$PROJECT_DIR$/log_1.log" />
+        <option value="$PROJECT_DIR$/log_1_info.log" />
+        <option value="$PROJECT_DIR$/log_1_error.log" />
+        <option value="$PROJECT_DIR$/log_0.py" />
+        <option value="$PROJECT_DIR$/log_1.py" />
+        <option value="$PROJECT_DIR$/config/__init__.py" />
+        <option value="$PROJECT_DIR$/logs/test_dict_config.log" />
+        <option value="$PROJECT_DIR$/config/dict_config_filters.py" />
+        <option value="$PROJECT_DIR$/log2_dictConfig.py" />
+        <option value="$PROJECT_DIR$/logs/test_dict_config_err.log" />
+        <option value="$PROJECT_DIR$/log1_logger.py" />
+        <option value="$PROJECT_DIR$/config/dict_config.py" />
+        <option value="$PROJECT_DIR$/log0_basicConfig.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="319" />
+    <option name="width" value="697" />
+    <option name="height" value="745" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (code) (1) &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (code) (1) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Anaconda3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (code) (1) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Anaconda3" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (code) (1) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Anaconda3" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="logging" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.log2_dictConfig">
+    <configuration name="log1_logger" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/log1_logger.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="log2_dictConfig" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/log2_dictConfig.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="log_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="G:\Important重要\Learning-Notes\notes\python_tools\log\code\log1_logger.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="log_tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="G:\Important重要\Learning-Notes\notes\python_tools\log\code\log0_basicConfig.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.log_tests" />
+      <item itemvalue="Python.log_1" />
+      <item itemvalue="Python.log1_logger" />
+      <item itemvalue="Python.log2_dictConfig" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.log2_dictConfig" />
+        <item itemvalue="Python.log1_logger" />
+        <item itemvalue="Python.log_1" />
+        <item itemvalue="Python.log_tests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3b1ed46b-badb-4f9d-bc8e-089bd285336b" name="Default Changelist" comment="" />
+      <created>1589948113415</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589948113415</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7576737" visible="true" weight="0.25340393" />
+      <window_info id="Structure" order="1" sideWeight="0.24232633" side_tool="true" visible="true" weight="0.25340393" />
+      <window_info id="Favorites" order="2" sideWeight="0.50127876" side_tool="true" weight="0.24962178" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32956383" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3441034" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39095315" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://E:/Anaconda3/Lib/logging/config.py</url>
+          <line>554</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://E:/Anaconda3/Lib/logging/config.py</url>
+          <line>290</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test.log" />
+    <entry file="file://$PROJECT_DIR$/log_1.log" />
+    <entry file="file://$PROJECT_DIR$/log_1_info.log" />
+    <entry file="file://$PROJECT_DIR$/log_1_error.log" />
+    <entry file="file://$PROJECT_DIR$/log1_error.log" />
+    <entry file="file://E:/Anaconda3/Lib/logging/handlers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Anaconda3/Lib/logging/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="539" column="32" selection-start-line="539" selection-start-column="32" selection-end-line="539" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://E:/Anaconda3/Lib/logging/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-729">
+          <caret line="663" selection-start-line="663" selection-end-line="669" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/test_dict_config_err.log" />
+    <entry file="file://$PROJECT_DIR$/log2_dictConfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="29" lean-forward="true" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/dict_config_filters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <folding>
+            <marker date="1589964161450" expanded="true" signature="95:104" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/dict_config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log1_logger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log0_basicConfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

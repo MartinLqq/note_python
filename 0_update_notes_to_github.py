@@ -7,12 +7,12 @@ Update notes to Github: public
 
 更新机制:
     Gitee 本地仓库的更新 ---> Github 远程仓库
-	1. 把对应 Gitee 仓库的本地仓库中 需要更新的目录/文件 的路径添加到 CONFIG['includes'] 白名单中
-	2. 通过遍历白名单目录/文件, 将目标文件提交到 Github 远程仓库
+    1. 把对应 Gitee 仓库的本地仓库中 需要更新的目录/文件 的路径添加到 CONFIG['includes'] 白名单中
+    2. 通过遍历白名单目录/文件, 将目标文件提交到 Github 远程仓库
 注意:
     0. 配置好目标仓库的用户和密码/ssh key
-	1. 不要随便修改笔记中已确定的目录名和文件名, 如果必须修改, 则必须在白名单中进行更新
-	2. 本脚本的位置不可变动, 名称可修改
+    1. 不要随便修改笔记中已确定的目录名和文件名, 如果必须修改, 则必须在白名单中进行更新
+    2. 本脚本的位置不可变动, 名称可修改
 """
 import logging
 import os
@@ -34,6 +34,9 @@ CONFIG = {
         # 前端笔记
         r'G:\Important重要\Learning-Notes\前端',
 
+        # 快速构建 doc 网站
+        r'G:\Important重要\Learning-Notes\gitbook',
+
         # 其他目录
         # ...
 
@@ -50,6 +53,7 @@ CONFIG = {
         'node_modules',
         'myenv',
         'myvenv',
+        'venv',
         'env-restful',
     ]
 }
@@ -64,7 +68,7 @@ logging.basicConfig(
     level=logging.DEBUG,
     format='%(asctime)s %(lineno)d: %(message)s',
     handlers=[
-        # logging.FileHandler(filename='git.log'),
+        logging.FileHandler(filename='git.log'),
         logging.StreamHandler()
     ]
 )
@@ -130,7 +134,7 @@ def can_exclude(path: str):
     excludes = CONFIG['excludes']
     exclude = False
     for exc in excludes:
-    	# 如果绝对路径中包含配置的过滤字符串
+        # 如果绝对路径中包含配置的过滤字符串
         if exc in path:
             exclude = True
             break
@@ -166,7 +170,22 @@ def src_local_to_dst():
                 copy(file)
 
 
+def clean_dst_dir(dst):
+    """清理目标本地仓库中除了 .git 之外的内容."""
+    print(os.listdir(dst))
+    for path in os.listdir(dst):
+        if path not in ['.git', '前端']:
+            _p = os.path.join(dst, path)
+            print(_p)
+            if os.path.isfile(_p):
+                os.remove(_p)
+            else:
+                shutil.rmtree(_p, ignore_errors=True)
+
+
 if __name__ == '__main__':
+    clean_dst_dir(DST_LOCAL)
+
     # src = Git(path=SRC_LOCAL)
     dst = Git(path=DST_LOCAL)
     src_local_to_dst()

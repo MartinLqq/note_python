@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="79e8b8df-2fc8-4d3c-a72c-526bc684d365" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../0_必背网址.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../0_必背网址.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Links.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Links.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../base_env/HTTP_Server/Gunicorn.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../base_env/HTTP_Server/Gunicorn.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../databases/MySQL/MySQL_01.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../databases/MySQL/MySQL_01.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/interview_01_dateType.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/interview_02_webFrame.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/interview_03.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interview/interview_04.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Django_对比_Flask.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../markdown/DRF框架_TODO/drf_01_引入djangorestframework.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../markdown/django_03_类视图与中间件.md" beforeDir="false" afterPath="$PROJECT_DIR$/../markdown/django_03_类视图与中间件.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../前端/前端框架_and_库.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../前端/前端框架_and_库.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../清单.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../清单.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../简单博客建站计划.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../简单博客建站计划.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1bqJfLeaCYygoCPLWWGvPNaRlS0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="79e8b8df-2fc8-4d3c-a72c-526bc684d365" name="Default Changelist" comment="" />
+      <created>1589353798176</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589353798176</updated>
+      <workItem from="1589353836806" duration="4707000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="184" y="13" key="SettingsEditor" timestamp="1589356408070">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="184" y="13" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1589356408070" />
+  </component>
+</project>

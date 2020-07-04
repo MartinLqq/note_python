@@ -1,8 +1,13 @@
 
+
+分享 GitHub 上有趣、入门级的开源项目： hellogithub.com   【Great！】
+
 手册网:    www.shouce.ren
 
 python官方文档:  docs.python.org
 python官方包索引: pypi.org
+
+Python Cheatsheet:  pythonsheets.com
 
 django官方文档:  docs.djangoproject.com
 DRF:  django-rest-framework.org
@@ -11,14 +16,16 @@ W3School:  www.w3school.com.cn
 
 梁兴华:  www.liangxinghua.com
 
-CSS参考手册:  css.doyoe.com
-
-
-npm 源:  unpkg.com
-
 nodejs:   nodejs.cn
 
 传智播客官方CSDN博客(很多技术博客和视频教程):  me.csdn.net/itcast_cn
 
-Java学习平台, 教程案例容易理解, 流程清晰:   how2j.cn
+州的先生   zmister.com
 
+解析shell命令， 提供帮助信息：  explainshell.com
+
+
+
+# CSS参考手册:  css.doyoe.com
+# npm 源:  unpkg.com
+# Java学习平台, 教程案例容易理解, 流程清晰:   how2j.cn
