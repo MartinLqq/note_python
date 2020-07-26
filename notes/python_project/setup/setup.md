@@ -262,19 +262,22 @@ requirements.txt
 - CSDN:  [python setup](https://blog.csdn.net/zhaole524/article/details/51772586)
 
 
+### > CI/CD
+```
+.travis.yml    # 用来描述如何持续构建，支持各种语言和系统环境
+.gitlab-ci.yml
+```
 
-
+`.travis.yml`: [官方网档](https://docs.travis-ci.com/user/tutorial/)
+`.gitlab-ci.yml`: 持续集成之.gitlab-ci.yml篇, https://segmentfault.com/a/1190000019540360
 
 ### > 未分类
 
 ```
-.travis.yml    # 用来描述如何持续构建，支持各种语言和系统环境
 MANIFEST.in
 MAKEFILE
-tox.ini
+tox.ini       # 通用的虚拟环境管理和测试命令行工具。tox能够让我们在同一个Host上自定义出多套相互独立且隔离的python环境
 ```
 
-`.travis.yml`
 
-- [官方网档](https://docs.travis-ci.com/user/tutorial/)
 

@@ -12,8 +12,13 @@
 
 提供许多 Python 代码片段，使开发更加方便！！
 
+官网:  https://www.pythonsheets.com/ 
+
 
 
 # [LearnPython](https://github.com/xianhu/LearnPython)
 
  以撸代码的形式学习Python 
+
+
+

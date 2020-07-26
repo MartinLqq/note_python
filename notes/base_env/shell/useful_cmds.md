@@ -144,3 +144,7 @@ $ pip install --upgrade httpie
 $ http --help
 ```
 
+# vimdiff 文本文件比对
+```bash
+vimdiff test1.py test2.py
+```

@@ -22,3 +22,23 @@ DB-Engines:   [https://db-engines.com/en/ranking](https://db-engines.com/en/rank
 12. 数据库存储的原理
 13. 使用场景
 
+
+
+# 进阶 2020-07-26
+
+1、数据库设计那些事：[网页链接](https://www.imooc.com/learn/117)    [笔记](慕课网-MySQL/01_数据库设计那些事.md)
+
+2、学会分析SQL执行效率：[网页链接](https://www.imooc.com/read/43/article/682?mc_marking=79c4e96a1862dc5f8d824a15d0868bd8&mc_channel=weibo)
+
+3、阿里新零售数据库设计与实战：[网页链接](https://coding.imooc.com/class/353.html?mc_marking=fd4bded369aeece21f3f9fac30ac8ff1&mc_channel=weibo)
+
+4、带你深入理解 MySQL：[网页链接](https://www.imooc.com/read/43?mc_marking=fd1a65366f1087e45d2b34e9c9c5250b&mc_channel=weibo)
+
+5、扛得住的MySQL数据库架构：[网页链接](https://coding.imooc.com/class/49.html?mc_marking=220ac665f97a6b729505fbe89cebdec1&mc_channel=weibo) 
+
+
+
+
+
+
+

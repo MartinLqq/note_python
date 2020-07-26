@@ -48,4 +48,5 @@ https://www.zhihu.com/question/21123049
 - youtube:  已关注
 
 
-
+# 人工智能学习库
+https://easyai.tech/

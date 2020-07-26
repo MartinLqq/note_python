@@ -191,22 +191,42 @@ pycharm Local History
 2. 选择修改记录, 右键 --> Revert(恢复)
 ```
 
-### 设置和使用代码模板
+### 设置和使用 Live Templates
 
 ```
-设置代码模板
+设置 Live Templates
     1. File --> Settings --> Editor --> Live Templates -->
     2. 点击右侧 + 号, 填写输入框: Abbreviation, Description, Template text, 
     3. 点击下方 Define, 选择模板应用于哪个语言(如python)
     4. Apply --> OK
 	
-查看代码模板列表
+查看 Live Templates 列表
 	Ctrl + J
-使用代码模板
+使用 Live Templates
 	A. Ctrl+J调出代码模板列表, 选择和使用模板
 	B. 或输入之前设置的 Abbreviation 值, 选择模板.
 ```
 
+### 设置和使用 Code Templates
+与 Live Templates 的区别:
+- Live Templates 是在编辑时, 可以根据输入的内容自动补全为配置好的模板
+- Code Templates 是在创建文件时, 根据文件类型自动为文件填充配置好的内容
+设置 Live Templates
+    1. File --> Settings --> Editor --> File and Code Templates
+    2. 选择文件类型, 如 Python Script (或新增基于后缀的新类型)
+    3. 在右侧输入框中输入模板内容.  可以看到 Description 框下有提示: [Apache Velocity](http://velocity.apache.org/engine/devel/user-guide.html#Velocity_Template_Language_VTL:_An_Introduction) template language is used
+    4. Apply --> OK
+    5. 新建一个 py 文件, 测试结果
+
+**查看Pycharm配置好的一些代码模板**: 如 Setup Script 类型、Flask Main 类型、HTML File 等等。
+
+python 文件模板配置示例:
+```
+# coding=utf-8
+# @Time   : $DATE $TIME
+# @Author : liaoqingquan
+# @Email  : 18770915328@163.com
+```
 
 
 ### 一键分析代码性能
@@ -241,7 +261,7 @@ fun5()
 
 点击 Run -> Profile '程序' (或在代码窗口单击鼠标右键来找到) ，即可进行性能分析。
 
-![img](https://mmbiz.qpic.cn/mmbiz_png/UFM3uMlAXxNe5MPfmmNeCMibRg3o9PGqm8MlYBFBjiaMBIvXiaTUeMVoFGRjX0IjyP5rWIhI3WHKbusjPLA8ql2fg/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![img](https://images.gitee.com/uploads/images/2020/0708/142712_99fca12c_2084631.png)
 
 运行完毕后，会自动跳出一个性能统计界面。
 
@@ -256,7 +276,7 @@ fun5()
 
 点击 Call Graph（调用关系图）界面直观展示了各函数直接的调用关系、运行时间和时间百分比，见下图。
 
-![img](https://mmbiz.qpic.cn/mmbiz_png/UFM3uMlAXxNe5MPfmmNeCMibRg3o9PGqmn7rSRiaTBsIQSxrf8VZ9FEsrSX77oPZe5dzSembJdscVHawsEjVhsnQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![img](https://images.gitee.com/uploads/images/2020/0708/142712_0b902735_2084631.png)
 
 左上角的4个按钮表示放大、缩小、真实大小、合适大小；
 

@@ -24,6 +24,7 @@ nodejs:   nodejs.cn
 
 解析shell命令， 提供帮助信息：  explainshell.com
 
+李笑来: lixiaolai.com
 
 
 # CSS参考手册:  css.doyoe.com

@@ -8,6 +8,10 @@
 
 
 
+**python-patterns**:   https://github.com/faif/python-patterns 
+
+
+
 # 三类
 
 1. 创建模式，提供实例化的方法，为适合的状况提供相应的对象创建方法。
